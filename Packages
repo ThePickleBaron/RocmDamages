@@ -1,0 +1,3180 @@
+Package: amd-smi-lib
+Architecture: amd64
+Depends: python3 (>= 3.7.9), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/a/amd-smi-lib/amd-smi-lib_1.0.0.50600-67~20.04_amd64.deb
+Size: 399714
+SHA256: bb125ba91aaa46a9f6661f0f4d1eb60088c146b5914bbd48c9e0e2f7afb8ffe7
+SHA1: 5acba23a3e8cdcfa2b8b88f43e8ee9c6074d3398
+MD5sum: 00d1098e79d266868bf14972712915c8
+Description: AMD System Management libraries
+Maintainer: AMD-SMILib Support <amd-smi.support@amd.com>
+Provides: amd-smi
+Recommends: sudo, libdrm-dev
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 2957
+
+Package: amd-smi-lib5.6.0
+Architecture: amd64
+Depends: python3 (>= 3.7.9), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/a/amd-smi-lib5.6.0/amd-smi-lib5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 305872
+SHA256: 9b78a1757cfaee22122828054a501deae94d2aa4e47c4eb6154eb874c6192329
+SHA1: 757b3a336ce814fb026b212c6bef796edb9bcc53
+MD5sum: e1b7e514590444383f2f5c49c4d0252e
+Description: AMD System Management libraries
+Maintainer: AMD-SMILib Support <amd-smi.support@amd.com>
+Provides: amd-smi5.6.0
+Recommends: sudo, libdrm-dev
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 2957
+
+Package: comgr
+Architecture: amd64
+Depends: libtinfo-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/c/comgr/comgr_2.5.0.50600-67~20.04_amd64.deb
+Size: 52165124
+SHA256: d21797133f808fb4b90eaab270ff0043ea5f860bdeb2c7610b133a1ff5375dd3
+SHA1: dd5936f6f5f027929e8c61c4c5f8f3e1d9cd2cbd
+MD5sum: 5344328374fd26b6961e1cb5fcf72071
+Description: Library to provide support functions for ROCm code objects.
+Homepage: https://github.com/RadeonOpenCompute/ROCm-CompilerSupport
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 2.5.0.50600-67~20.04
+Installed-Size: 441992
+
+Package: comgr5.6.0
+Architecture: amd64
+Depends: libtinfo-dev, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/c/comgr5.6.0/comgr5.6.0_2.5.0.50600-67~20.04_amd64.deb
+Size: 35524740
+SHA256: 6e44db8b182329a598a05ed29cd43a2cb9f87c1e771572b27c0cf6332b66decd
+SHA1: d28f95235de80d75bf6f4bccb31e2f8b64ae4d7c
+MD5sum: 4840d4fe0f5fe36d502cb3778564133b
+Description: Library to provide support functions for ROCm code objects.
+Homepage: https://github.com/RadeonOpenCompute/ROCm-CompilerSupport
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 2.5.0.50600-67~20.04
+Installed-Size: 441992
+
+Package: half
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/half/half_1.12.0.50600-67~20.04_amd64.deb
+Size: 20052
+SHA256: 6326d3671922fc7ccf595249609884a383653d321fb9081c611ed0df86d4455f
+SHA1: 4bc16055c106512c9d73a4d0b1903eafee9075c7
+MD5sum: 17b83d35c864566866209694c47f38f8
+Description: HALF-PRECISION FLOATING POINT LIBRARY
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Version: 1.12.0.50600-67~20.04
+Installed-Size: 177
+
+Package: half5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/half5.6.0/half5.6.0_1.12.0.50600-67~20.04_amd64.deb
+Size: 20204
+SHA256: 2501032688d24b4b44c5ec6ac467fde90d77335eacffcff0a58616dc4de6c4f7
+SHA1: e3c8d50987d939a1e336960eced30272da0f083c
+MD5sum: 7237581f37a1fc7f1018de8ba94d2ed4
+Description: HALF-PRECISION FLOATING POINT LIBRARY
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Version: 1.12.0.50600-67~20.04
+Installed-Size: 177
+
+Package: hip-dev
+Architecture: amd64
+Depends: perl (>= 5.0), liburi-encode-perl, libfile-basedir-perl, libfile-copy-recursive-perl, libfile-listing-perl, libfile-which-perl, libc6, file, rocm-core, hipcc
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-dev/hip-dev_5.6.31061.50600-67~20.04_amd64.deb
+Size: 259822
+SHA256: bc2e798d2ce3e669e9b27a789e880d43a052ba91d5892e69705830c4aa4753ed
+SHA1: 9cc6f4e02fcafe7d70fe3b22393cc5e703269ebb
+MD5sum: bb0536a99c97f6185abce772d2e6af3b
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [DEVELOPMENT]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-base
+Replaces: hip-base
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 2135
+
+Package: hip-dev5.6.0
+Architecture: amd64
+Depends: perl (>= 5.0), liburi-encode-perl, libfile-basedir-perl, libfile-copy-recursive-perl, libfile-listing-perl, libfile-which-perl, libc6, file, rocm-core5.6.0, hipcc5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-dev5.6.0/hip-dev5.6.0_5.6.31061.50600-67~20.04_amd64.deb
+Size: 192888
+SHA256: f59b9695ab4bc316cd2b5b1b8e35883a6a957fb29780e3515f9aa89bfd27bf58
+SHA1: a23e07965b2309267103f6380445df6fa919c96a
+MD5sum: f3c6b5922e4d9f5d5a853bb6bfa0329c
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [DEVELOPMENT]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-base5.6.0
+Replaces: hip-base5.6.0
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 2135
+
+Package: hip-doc
+Architecture: amd64
+Depends: hip-dev (= 5.6.31061.50600-67~20.04), rocm-core, hipcc
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-doc/hip-doc_5.6.31061.50600-67~20.04_amd64.deb
+Size: 1167420
+SHA256: 5b72f86daf1e951740c934ff0906e36d91654689ea197f73af6fd8986970cf59
+SHA1: d1afe6b288a5315432fe2791570bfdf5180449df
+MD5sum: cf1174b1ab6d65845a266c721e08ce2b
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [DOCUMENTATION]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-doc
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 5583
+
+Package: hip-doc5.6.0
+Architecture: amd64
+Depends: hip-dev5.6.0 (= 5.6.31061.50600-67~20.04), rocm-core5.6.0, hipcc5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-doc5.6.0/hip-doc5.6.0_5.6.31061.50600-67~20.04_amd64.deb
+Size: 737516
+SHA256: 59a6b1787b93aff67247d3d2fd8ba248f5c5fe4f3960b2cbf34c76502fd08fe2
+SHA1: 7e268a4477a44cd9e5e065d783d187e700b4ff14
+MD5sum: 91108c9e4dfafbffb3b921a70a23ed24
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [DOCUMENTATION]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-doc5.6.0
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 5583
+
+Package: hip-runtime-amd
+Architecture: amd64
+Depends: hsa-rocr-dev (>= 1.3), rocminfo,  comgr (>= 2.0), rocm-llvm, libc6, rocm-core, hipcc
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-runtime-amd/hip-runtime-amd_5.6.31061.50600-67~20.04_amd64.deb
+Size: 14025258
+SHA256: ad94e69f754af4c3f6b2db9afadcb2674bd37e7f4056540435090b9a483683f7
+SHA1: 8b00bf5c15758d78fe997e5e985e8bb78c54bf4a
+MD5sum: 2c20ed0b588aa6f15446986863c107b0
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP:Heterogenous-computing Interface for Portability [RUNTIME - AMD]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-rocclr (= 5.6.31061.50600)
+Replaces: hip-rocclr (= 5.6.31061.50600)
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 171417
+
+Package: hip-runtime-amd5.6.0
+Architecture: amd64
+Depends: hsa-rocr-dev5.6.0 (>= 1.3), rocminfo5.6.0,  comgr5.6.0 (>= 2.0), rocm-llvm5.6.0, libc6, rocm-core5.6.0, hipcc5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-runtime-amd5.6.0/hip-runtime-amd5.6.0_5.6.31061.50600-67~20.04_amd64.deb
+Size: 10519928
+SHA256: 5cc8649f28760ba8d0c20e594547fb352b6573bdde010b719e89998f6413e8b8
+SHA1: ccb0c9336fa18be598813454f9784d6730b7b76e
+MD5sum: 7fb50b5500567fad75a318288ea10a53
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP:Heterogenous-computing Interface for Portability [RUNTIME - AMD]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-rocclr5.6.0 (= 5.6.31061.50600)
+Replaces: hip-rocclr5.6.0 (= 5.6.31061.50600)
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 171417
+
+Package: hip-runtime-nvidia
+Architecture: amd64
+Depends: cuda (>= 7.5), rocm-core, hipcc
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-runtime-nvidia/hip-runtime-nvidia_5.6.31061.50600-67~20.04_amd64.deb
+Size: 688
+SHA256: d29d110807fdaac2e194c70ed12c350c3c3b4ccd3c8491a9a3d3f0cbaccd364c
+SHA1: 43c15102716ae41c3da9917d927295acb3300d96
+MD5sum: d760668521f022cc005e0e959891feb0
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [RUNTIME-NVIDIA]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-nvcc
+Replaces: hip-nvcc
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 8
+
+Package: hip-runtime-nvidia5.6.0
+Architecture: amd64
+Depends: cuda (>= 7.5), rocm-core5.6.0, hipcc5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-runtime-nvidia5.6.0/hip-runtime-nvidia5.6.0_5.6.31061.50600-67~20.04_amd64.deb
+Size: 908
+SHA256: 0b11f550ace3695f9db29d4bb628712ac56f3889e5b8b2572c9e70071cf54cf3
+SHA1: 5d3b0271dd08f1e3c59442615c2b518f38f3df5f
+MD5sum: 4814df858937f9f02474079407172cad
+Description: HIP:Heterogenous-computing Interface for Portability
+ HIP: Heterogenous-computing Interface for Portability [RUNTIME-NVIDIA]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-nvcc5.6.0
+Replaces: hip-nvcc5.6.0
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 8
+
+Package: hip-samples
+Architecture: amd64
+Depends: rocm-core, hip-runtime-amd
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-samples/hip-samples_5.6.31061.50600-67~20.04_amd64.deb
+Size: 80556
+SHA256: 3c2195fd2de81ea1fa2fc8d92c174fbcfa7f76d9b40e4dac30289e11e951f845
+SHA1: e55a661e3d75bf00d0d85fe0a6e2fe372d6ccc6b
+MD5sum: e772bef27d3d744ab454c3323cd49b18
+Description: HIP: Heterogenous-computing Interface for Portability [HIP SAMPLES]
+ HIP:
+ Heterogenous-computing Interface for Portability [HIP SAMPLES]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-samples
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 598
+
+Package: hip-samples5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0, hip-runtime-amd5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hip-samples5.6.0/hip-samples5.6.0_5.6.31061.50600-67~20.04_amd64.deb
+Size: 59968
+SHA256: 114d164418a520855a362c00faa12acee853144131f9d728429706e77216088b
+SHA1: 559d7d6278f0fa557361a4adfeb4378acef045b8
+MD5sum: f35e2e70cae552e5f7ffed0fb2940d21
+Description: HIP: Heterogenous-computing Interface for Portability [HIP SAMPLES]
+ HIP:
+ Heterogenous-computing Interface for Portability [HIP SAMPLES]
+Maintainer: HIP Support <hip.support@amd.com>
+Provides: hip-samples5.6.0
+Version: 5.6.31061.50600-67~20.04
+Installed-Size: 598
+
+Package: hipblas
+Architecture: amd64
+Depends: rocblas (>= 3.0.0), rocsolver (>= 3.22.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblas/hipblas_1.0.0.50600-67~20.04_amd64.deb
+Size: 80462
+SHA256: f306a351cb3c3a2c86dc5cad0ff8f17c19185cd483fa5cbae97840aeaf37052f
+SHA1: 94eb0ed396d368ab75e89d8ac80322878e1e4429
+MD5sum: 73e81da06aacf97ba06da74fcef91cf8
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLAS Maintainer <hipblas-maintainer@amd.com>
+Recommends: hipblas-dev (>=1.0.0.50600)
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 1268
+
+Package: hipblas-dev
+Architecture: amd64
+Depends: hipblas (>= 1.0.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblas-dev/hipblas-dev_1.0.0.50600-67~20.04_amd64.deb
+Size: 57226
+SHA256: afff2f6ae5bc50397ea28fc105b8bafcc47c31f59d25bdf9514eb418119a6349
+SHA1: 7222918e9db950aaa9262b9475e36d01865f7760
+MD5sum: f314a1db682814a76b00005f92c43d31
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLAS Maintainer <hipblas-maintainer@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 2691
+
+Package: hipblas-dev5.6.0
+Architecture: amd64
+Depends: hipblas5.6.0 (>= 1.0.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblas-dev5.6.0/hipblas-dev5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 57404
+SHA256: ccadbf0c83c6a3b6ee8c5f0db7588615d70127ccc59bae9ddb0270f215c5e61f
+SHA1: ad0ffdca9cb008d3aa61a48113eddd6edfa54db6
+MD5sum: 9462df89699f2bcdd38f3b3436f06cc1
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLAS Maintainer <hipblas-maintainer@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 2691
+
+Package: hipblas5.6.0
+Architecture: amd64
+Depends: rocblas5.6.0 (>= 3.0.0), rocsolver5.6.0 (>= 3.22.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblas5.6.0/hipblas5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 81300
+SHA256: 1fd34e88e73c859d0e2b27be1fa656ef5f57ae48855005e5d41c1ef27722bcba
+SHA1: 29d27f6aa81a2e6992d28d2d95f3e3ef03c14e95
+MD5sum: 1eff896bb642c54b689e40b249bda757
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLAS Maintainer <hipblas-maintainer@amd.com>
+Recommends: hipblas-dev5.6.0 (>=1.0.0.50600)
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 1268
+
+Package: hipblaslt
+Architecture: amd64
+Depends: hipblas (>= 0.50.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblaslt/hipblaslt_0.2.0.50600-67~20.04_amd64.deb
+Size: 787790
+SHA256: f30246b22c7237dc71bfe63e764e3ee31f3d116eb4a4c2c06dbda784c8cadb6a
+SHA1: 962da964704d08a9936feee10133e7baca6007ae
+MD5sum: d383afe1e7c91ae774d66ed62a9159a8
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLASLt Maintainer <hipblaslt-maintainer@amd.com>
+Recommends: hipblaslt-dev (>=0.2.0.50600)
+Version: 0.2.0.50600-67~20.04
+Installed-Size: 14460
+
+Package: hipblaslt-dev
+Architecture: amd64
+Depends: hipblaslt (>= 0.2.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblaslt-dev/hipblaslt-dev_0.2.0.50600-67~20.04_amd64.deb
+Size: 21711886
+SHA256: 7e9451d263d3c5ffefd93741ee4fbf92ad3462880097cb10e6ec9fef5cc24ed6
+SHA1: 445e464651de77430305d8056e9f49ab31572812
+MD5sum: 647f7a4dedb0482a1efed0df08cb2afe
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLASLt Maintainer <hipblaslt-maintainer@amd.com>
+Version: 0.2.0.50600-67~20.04
+Installed-Size: 724713
+
+Package: hipblaslt-dev5.6.0
+Architecture: amd64
+Depends: hipblaslt5.6.0 (>= 0.2.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblaslt-dev5.6.0/hipblaslt-dev5.6.0_0.2.0.50600-67~20.04_amd64.deb
+Size: 21720544
+SHA256: c3f41563aca738b0b612d7e4ef8665fb2f5cc17c719288cc5a72320f439db55f
+SHA1: 59e448e0563fd7d938296c6712c223b90d6253fc
+MD5sum: 44f9c7e24cc9f2a963fe8570624839ee
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLASLt Maintainer <hipblaslt-maintainer@amd.com>
+Version: 0.2.0.50600-67~20.04
+Installed-Size: 724713
+
+Package: hipblaslt5.6.0
+Architecture: amd64
+Depends: hipblas5.6.0 (>= 0.50.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipblaslt5.6.0/hipblaslt5.6.0_0.2.0.50600-67~20.04_amd64.deb
+Size: 789168
+SHA256: aae54e5fae28b387b4a83d272d9f19e50a04040219e8071891e7c595cac17e1a
+SHA1: 3e12b34f6bb3570d227dc4b893af1e013659e190
+MD5sum: 7a6171504f7e565b6c783afaad683d47
+Description: Radeon Open Compute BLAS marshalling library
+Maintainer: hipBLASLt Maintainer <hipblaslt-maintainer@amd.com>
+Recommends: hipblaslt-dev5.6.0 (>=0.2.0.50600)
+Version: 0.2.0.50600-67~20.04
+Installed-Size: 14460
+
+Package: hipcc
+Architecture: amd64
+Depends: libfile-basedir-perl, perl (>= 5.0), hip-dev, rocm-core, rocm-llvm
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipcc/hipcc_1.0.0.50600-67~20.04_amd64.deb
+Size: 263938
+SHA256: 6da0554c3012eeae8f79fccd22c978f2d6feaa2794bdc9ece7e012c6ebbec787
+SHA1: 9230599daf93b22e08e6edf9427428a1e268a186
+MD5sum: 62e3f63d02c0354a7ab79503a76a1de3
+Description: HIP Compiler Driver
+Homepage: https://github.com/ROCm-Developer-Tools/HIPCC
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 774
+
+Package: hipcc5.6.0
+Architecture: amd64
+Depends: libfile-basedir-perl, perl (>= 5.0), hip-dev5.6.0, rocm-core5.6.0, rocm-llvm5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipcc5.6.0/hipcc5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 111452
+SHA256: 75c06073309dc24a81a9fde0822b6175e84369062671d05baf14beddfbca79b4
+SHA1: a7d3c982cb6e6b4255688145be6fcf90c67cdff4
+MD5sum: 573168892e9e96835a10a46e62fa103c
+Description: HIP Compiler Driver
+Homepage: https://github.com/ROCm-Developer-Tools/HIPCC
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 774
+
+Package: hipcub-dev
+Architecture: amd64
+Depends: rocprim-dev (>= 2.10.1), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipcub-dev/hipcub-dev_2.13.1.50600-67~20.04_amd64.deb
+Size: 74218
+SHA256: baf0363aa681a273c584ec474fe446d7481db13ee93c7774bc5fb147383c44b7
+SHA1: c824b28f4c54721348f3f979e777b8b5c8bcec38
+MD5sum: 4feeb6414bbb8b264476e4c7a18358e6
+Description: hipCUB (rocPRIM backend)
+Maintainer: hipcub-maintainer@amd.com
+Provides: hipcub (= 2.13.1.50600)
+Replaces: cub-hip
+Version: 2.13.1.50600-67~20.04
+Installed-Size: 1179
+
+Package: hipcub-dev5.6.0
+Architecture: amd64
+Depends: rocprim-dev5.6.0 (>= 2.10.1), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipcub-dev5.6.0/hipcub-dev5.6.0_2.13.1.50600-67~20.04_amd64.deb
+Size: 73356
+SHA256: d9367019b02ef402fdcd48fd7c276be1796d137615137352d52407be7cb07c3d
+SHA1: 38faf23ae69718b897b44c7f6c39fe28fb2f91be
+MD5sum: 7c96a0c5a108765836a14df5a09b8d51
+Description: hipCUB (rocPRIM backend)
+Maintainer: hipcub-maintainer@amd.com
+Provides: hipcub5.6.0 (= 2.13.1.50600)
+Replaces: cub-hip5.6.0
+Version: 2.13.1.50600-67~20.04
+Installed-Size: 1179
+
+Package: hipfft
+Architecture: amd64
+Depends: rocfft (>= 1.0.19), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfft/hipfft_1.0.12.50600-67~20.04_amd64.deb
+Size: 14926
+SHA256: 35516c803cddee78bae304b0d855488dd535309838a3b7beeb536310f4831b5f
+SHA1: 3c6c6a79df4e25a695b21c83be50301f57c6b39f
+MD5sum: e09eb8e9f154e4ea9afde3393ad7608d
+Description: ROCm FFT marshalling library
+Maintainer: hipfft-maintainer@amd.com
+Recommends: hipfft-dev (>=1.0.12.50600)
+Version: 1.0.12.50600-67~20.04
+Installed-Size: 67
+
+Package: hipfft-dev
+Architecture: amd64
+Depends: hipfft (>= 1.0.12.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfft-dev/hipfft-dev_1.0.12.50600-67~20.04_amd64.deb
+Size: 10824
+SHA256: 93642ebcca47a37c3ca80a8dbdf8b5e36588f04c3544ec2cce7c51c3defcf35c
+SHA1: 44a8ff22fddbb0e7582ec0a565c929b1047a788e
+MD5sum: 807ae979f7728e9f046bc767ca92c6d6
+Description: ROCm FFT marshalling library
+Maintainer: hipfft-maintainer@amd.com
+Version: 1.0.12.50600-67~20.04
+Installed-Size: 123
+
+Package: hipfft-dev5.6.0
+Architecture: amd64
+Depends: hipfft5.6.0 (>= 1.0.12.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfft-dev5.6.0/hipfft-dev5.6.0_1.0.12.50600-67~20.04_amd64.deb
+Size: 10972
+SHA256: 82b4fed1ff4f16ca667a1f7cb94262a837f4e72070113443a6469bae5af0df5f
+SHA1: 988b42012e8b30675f35a9bfb7d5f997b4fc947c
+MD5sum: be4917e26240bf1ac840e358cf2bafda
+Description: ROCm FFT marshalling library
+Maintainer: hipfft-maintainer@amd.com
+Version: 1.0.12.50600-67~20.04
+Installed-Size: 123
+
+Package: hipfft5.6.0
+Architecture: amd64
+Depends: rocfft5.6.0 (>= 1.0.19), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfft5.6.0/hipfft5.6.0_1.0.12.50600-67~20.04_amd64.deb
+Size: 15024
+SHA256: 7bb8dbf32c13e2c0850f430411942027b44b514d2d3ba0568153a39166e86603
+SHA1: 7ac2d4714aaebf72cd701af0b134e9ffadd32347
+MD5sum: cd651b53a3738521559f1f9c51749e72
+Description: ROCm FFT marshalling library
+Maintainer: hipfft-maintainer@amd.com
+Recommends: hipfft-dev5.6.0 (>=1.0.12.50600)
+Version: 1.0.12.50600-67~20.04
+Installed-Size: 67
+
+Package: hipfort-dev
+Architecture: amd64
+Conflicts: hipfort
+Depends: hip-rocclr (>= 3.5.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfort-dev/hipfort-dev_0.4.0.50600-67~20.04_amd64.deb
+Size: 6643564
+SHA256: ad23ac28bf48c2abd4b6466637fc2efc59890dc4e1044119c9f84cfad106831c
+SHA1: 4959455f9e73c8c2a3fd9721f404c7e6ba325333
+MD5sum: def01e443d81cac351d12883ba937092
+Description: hipfort: Fortran Interface For GPU Kernel Libraries
+Maintainer: Gregory Rogers <Gregory.Rodgers@amd.com>
+Provides: hipfort (= 0.4.0.50600)
+Replaces: hipfort
+Version: 0.4.0.50600-67~20.04
+Installed-Size: 106470
+
+Package: hipfort-dev5.6.0
+Architecture: amd64
+Conflicts: hipfort5.6.0
+Depends: hip-rocclr5.6.0 (>= 3.5.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipfort-dev5.6.0/hipfort-dev5.6.0_0.4.0.50600-67~20.04_amd64.deb
+Size: 6649516
+SHA256: 37c0cfceb9a891b8e0e0165167b789d2f31dbe472c20e84abc891e8438acce93
+SHA1: c48104a96993cede2b5c4db668091831ad68e279
+MD5sum: 9b562d5d580345be5997143020ab53cd
+Description: hipfort: Fortran Interface For GPU Kernel Libraries
+Maintainer: Gregory Rogers <Gregory.Rodgers@amd.com>
+Provides: hipfort5.6.0 (= 0.4.0.50600)
+Replaces: hipfort5.6.0
+Version: 0.4.0.50600-67~20.04
+Installed-Size: 106470
+
+Package: hipify-clang
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipify-clang/hipify-clang_16.0.0.50600-67~20.04_amd64.deb
+Size: 19574700
+SHA256: cf236ad5e4820cd62b67d560c489726213eb3c86c1df348a975fc6c7bd0f4510
+SHA1: 2e4a5f3b47ffcba939ed5dbd999611e9dbdc40a7
+MD5sum: 9055a161db042591e1a1671d8777ea52
+Description: Hipify CUDA source
+ This tool translates CUDA source code into portable HIP C++ automatically
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 16.0.0.50600-67~20.04
+Installed-Size: 116376
+
+Package: hipify-clang5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipify-clang5.6.0/hipify-clang5.6.0_16.0.0.50600-67~20.04_amd64.deb
+Size: 13459336
+SHA256: 15698360a40cf6ae64b8d852dc4ac4b4fee6d2945aeb928b3d133ca91d00b229
+SHA1: f53bc2baf75899b426a0198ad35ea3015601b50e
+MD5sum: f591d484c43d3d25bf60a5fd6d55f8fa
+Description: Hipify CUDA source
+ This tool translates CUDA source code into portable HIP C++ automatically
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 16.0.0.50600-67~20.04
+Installed-Size: 116376
+
+Package: hipsolver
+Architecture: amd64
+Depends: rocblas (>= 2.48.0), rocsolver (>= 3.22.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsolver/hipsolver_1.8.0.50600-67~20.04_amd64.deb
+Size: 59060
+SHA256: 6f26b16efa0ed7aa8a20a60dbeb4225731e77e38f9d80120684761293bf18f03
+SHA1: 6ecb200fb949d6873c68e98b0e039a3ac564d61c
+MD5sum: 706b1250c300588bd6689024b736cd21
+Description: Radeon Open Compute LAPACK marshalling library
+Maintainer: hipSOLVER Maintainer <hipsolver-maintainer@amd.com>
+Recommends: hipsolver-dev (>=1.8.0.50600)
+Version: 1.8.0.50600-67~20.04
+Installed-Size: 829
+
+Package: hipsolver-dev
+Architecture: amd64
+Depends: hipsolver (>= 1.8.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsolver-dev/hipsolver-dev_1.8.0.50600-67~20.04_amd64.deb
+Size: 18118
+SHA256: d6bbdb4ad53b8a7c65dd44d10d5e238ad712dd9cf2a5b9df9f9ccd9843a054ba
+SHA1: ec70091747c113228663b981ec8ccf3d4782983f
+MD5sum: 302ff98940cebe3c30d69339427db5db
+Description: Radeon Open Compute LAPACK marshalling library
+Maintainer: hipSOLVER Maintainer <hipsolver-maintainer@amd.com>
+Version: 1.8.0.50600-67~20.04
+Installed-Size: 482
+
+Package: hipsolver-dev5.6.0
+Architecture: amd64
+Depends: hipsolver5.6.0 (>= 1.8.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsolver-dev5.6.0/hipsolver-dev5.6.0_1.8.0.50600-67~20.04_amd64.deb
+Size: 18224
+SHA256: eb327b59986bef2dca1226bec301c1d46ab2720335ddd1e6d24d1dbdda8763cf
+SHA1: 149e8b344156aa34d183a9cf902f4f0954008c0a
+MD5sum: 28ee33a745cac1a6e09c9c300da447b6
+Description: Radeon Open Compute LAPACK marshalling library
+Maintainer: hipSOLVER Maintainer <hipsolver-maintainer@amd.com>
+Version: 1.8.0.50600-67~20.04
+Installed-Size: 482
+
+Package: hipsolver5.6.0
+Architecture: amd64
+Depends: rocblas5.6.0 (>= 2.48.0), rocsolver5.6.0 (>= 3.22.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsolver5.6.0/hipsolver5.6.0_1.8.0.50600-67~20.04_amd64.deb
+Size: 59180
+SHA256: 3dd3b039c1f9c10a45feb3d421b83a5e945ebac9f04fe26c19119b7300498dcc
+SHA1: d20b938344dc5e66de03133db34a5adca44df9af
+MD5sum: 029eeede3c6689a86327054111e3de3b
+Description: Radeon Open Compute LAPACK marshalling library
+Maintainer: hipSOLVER Maintainer <hipsolver-maintainer@amd.com>
+Recommends: hipsolver-dev5.6.0 (>=1.8.0.50600)
+Version: 1.8.0.50600-67~20.04
+Installed-Size: 829
+
+Package: hipsparse
+Architecture: amd64
+Depends: rocsparse (>= 1.12.10), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsparse/hipsparse_2.3.6.50600-67~20.04_amd64.deb
+Size: 51534
+SHA256: 8643fb1b80348ecc32acb6fcad92c587a3be00b0075c5213921e65765140541d
+SHA1: 1cecf6d1901e38ea3fb93fcf93e7efec496f7ffc
+MD5sum: ce5726af2f8797ef1512441eb721e127
+Description: Radeon Open Compute SPARSE library
+Maintainer: hipSPARSE Maintainer <hipsparse-maintainer@amd.com>
+Recommends: hipsparse-dev (>=2.3.6.50600)
+Version: 2.3.6.50600-67~20.04
+Installed-Size: 637
+
+Package: hipsparse-dev
+Architecture: amd64
+Depends: hipsparse (>= 2.3.6.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsparse-dev/hipsparse-dev_2.3.6.50600-67~20.04_amd64.deb
+Size: 32040
+SHA256: 6468ae575ba86c36dd02aa1217ad085b22325c41bf93dfa9701b5581cd8ad80c
+SHA1: cf609f725f7854d20aee1666e8c9362b9d98d253
+MD5sum: dd6138d10d0a5a2477cf493aa241a869
+Description: Radeon Open Compute SPARSE library
+Maintainer: hipSPARSE Maintainer <hipsparse-maintainer@amd.com>
+Version: 2.3.6.50600-67~20.04
+Installed-Size: 641
+
+Package: hipsparse-dev5.6.0
+Architecture: amd64
+Depends: hipsparse5.6.0 (>= 2.3.6.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsparse-dev5.6.0/hipsparse-dev5.6.0_2.3.6.50600-67~20.04_amd64.deb
+Size: 32156
+SHA256: 063e1123d04152b30aaafcda1d3d1b8e7c31e2143a7aaa6e6ef82cfa618d8e3d
+SHA1: 920055d4c49cc56e39c0159cc3b5137d8483d4f3
+MD5sum: 3e548e110bd28368bb6b438c81d32db5
+Description: Radeon Open Compute SPARSE library
+Maintainer: hipSPARSE Maintainer <hipsparse-maintainer@amd.com>
+Version: 2.3.6.50600-67~20.04
+Installed-Size: 641
+
+Package: hipsparse5.6.0
+Architecture: amd64
+Depends: rocsparse5.6.0 (>= 1.12.10), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hipsparse5.6.0/hipsparse5.6.0_2.3.6.50600-67~20.04_amd64.deb
+Size: 52112
+SHA256: 6e5c6926a669c0d43b93f854b5b7f23f132893f4c60c25a3b0f21ba71ff594d6
+SHA1: 334b64fd3e652916bb650fc8ce163ef3c2a916bf
+MD5sum: ac18eeecfda110b1a5caface0e565c85
+Description: Radeon Open Compute SPARSE library
+Maintainer: hipSPARSE Maintainer <hipsparse-maintainer@amd.com>
+Recommends: hipsparse-dev5.6.0 (>=2.3.6.50600)
+Version: 2.3.6.50600-67~20.04
+Installed-Size: 637
+
+Package: hsa-amd-aqlprofile
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.50600-67~20.04_amd64.deb
+Size: 190898
+SHA256: 67273e8513c0efdef6d52fb211a0cf4b7e117b1c5e737f8763946699324a9d7d
+SHA1: 62c8da879328ca1e1294be8803b5e0646130789c
+MD5sum: 8a140b96cce270ea4c9bb79c3390220e
+Description: AQLPROFILE library for AMD HSA runtime API extension support
+ Dynamic libraries for the AQLProfile
+Homepage: https://github.com/RadeonOpenCompute/HSA-AqlProfile-AMD-extension
+Maintainer: ROCm Profiler Support <dl.rocm-profiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 1075
+
+Package: hsa-amd-aqlprofile5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-amd-aqlprofile5.6.0/hsa-amd-aqlprofile5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 141616
+SHA256: 9aabe48bdcb87e9f9ff2989ed9cf7c766a437567f57af5c98012a19e72623ed8
+SHA1: e6c071c60372359da20f63521eadee58d1b45401
+MD5sum: 1f361684d68702e07cb03d1278815496
+Description: AQLPROFILE library for AMD HSA runtime API extension support
+ Dynamic libraries for the AQLProfile
+Homepage: https://github.com/RadeonOpenCompute/HSA-AqlProfile-AMD-extension
+Maintainer: ROCm Profiler Support <dl.rocm-profiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 1075
+
+Package: hsa-rocr
+Architecture: amd64
+Breaks: hsa-ext-rocr-dev
+Depends: libdrm-amdgpu-amdgpu1 | libdrm-amdgpu1, libnuma1, libelf1, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-rocr/hsa-rocr_1.9.0.50600-67~20.04_amd64.deb
+Size: 779428
+SHA256: 5ad2c33b3c9c92e4dbf326ab1ec4855badc5e0c09f3576f2f1bb3376e39753fc
+SHA1: bd27f73dda8e00f6fc4d5c3fed77244c5cbae220
+MD5sum: 12f8ecd64556822e31794f99ef9dd832
+Description: AMD Heterogeneous System Architecture HSA - Linux HSA Runtime for Boltzmann (ROCm) platforms
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Maintainer: AMD HSA Support <dl.HSA-Runtime-Support@amd.com>
+Recommends: libdrm-amdgpu-amdgpu1
+Replaces: hsa-ext-rocr-dev
+Version: 1.9.0.50600-67~20.04
+Installed-Size: 13713
+
+Package: hsa-rocr-dev
+Architecture: amd64
+Breaks: hsa-ext-rocr-dev
+Depends: hsa-rocr, hsakmt-roct-dev
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-rocr-dev/hsa-rocr-dev_1.9.0.50600-67~20.04_amd64.deb
+Size: 97158
+SHA256: 6a4e21e348384ae50c164149be78aac192421ff38b53f1317e9df9529d31a114
+SHA1: 98be74446dbdcd3c989787f01bf8820f59adfe7f
+MD5sum: 861d59adb1a546cc302aee60b1c2d679
+Description: AMD Heterogeneous System Architecture HSA development package.
+ This package contains the headers and cmake files for the hsa-rocr package.
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Maintainer: AMD HSA Support <dl.HSA-Runtime-Support@amd.com>
+Replaces: hsa-ext-rocr-dev
+Version: 1.9.0.50600-67~20.04
+Installed-Size: 567
+
+Package: hsa-rocr-dev5.6.0
+Architecture: amd64
+Breaks: hsa-ext-rocr-dev5.6.0
+Depends: hsa-rocr5.6.0, hsakmt-roct-dev5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-rocr-dev5.6.0/hsa-rocr-dev5.6.0_1.9.0.50600-67~20.04_amd64.deb
+Size: 74152
+SHA256: 7aa18225cd75f1c2286dea1a627ae0839d81fa15eda730771b14ad4a0714b3ca
+SHA1: 13b167349b4e3d3e7dea69edbe35efd75dcb4fab
+MD5sum: 9ff755e1287ee8af50c2a99dadefeebd
+Description: AMD Heterogeneous System Architecture HSA development package.
+ This package contains the headers and cmake files for the hsa-rocr package.
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Maintainer: AMD HSA Support <dl.HSA-Runtime-Support@amd.com>
+Replaces: hsa-ext-rocr-dev5.6.0
+Version: 1.9.0.50600-67~20.04
+Installed-Size: 567
+
+Package: hsa-rocr5.6.0
+Architecture: amd64
+Breaks: hsa-ext-rocr-dev5.6.0
+Depends: libdrm-amdgpu-amdgpu1 | libdrm-amdgpu1, libnuma1, libelf1, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsa-rocr5.6.0/hsa-rocr5.6.0_1.9.0.50600-67~20.04_amd64.deb
+Size: 466312
+SHA256: ab648cd692a565629a7c0ef849c2c9059121bf50e912341ecb7d5a302bb57803
+SHA1: a4dcba0237de7c0526ee027ac01bf268e2761a74
+MD5sum: 47f469f3cb6242aa8192878e9ad71887
+Description: AMD Heterogeneous System Architecture HSA - Linux HSA Runtime for Boltzmann (ROCm) platforms
+Homepage: https://github.com/RadeonOpenCompute/ROCR-Runtime
+Maintainer: AMD HSA Support <dl.HSA-Runtime-Support@amd.com>
+Recommends: libdrm-amdgpu-amdgpu1
+Replaces: hsa-ext-rocr-dev5.6.0
+Version: 1.9.0.50600-67~20.04
+Installed-Size: 13713
+
+Package: hsakmt-roct-dev
+Architecture: amd64
+Depends: libdrm-amdgpu-dev | libdrm-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsakmt-roct-dev/hsakmt-roct-dev_20230421.1.8.50600-67~20.04_amd64.deb
+Size: 387550
+SHA256: 6bdb7c7908c802e02713ba9078a9d995acd36a5b6830ef3ec00c1d628640b646
+SHA1: 39d5c7aeffcce11b2eecbb1346b15a7b9e2fae4c
+MD5sum: f7c6bc13c26ca6d360eb2f25cf1182b8
+Description: hsakmt built using CMake
+Homepage: https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface
+Maintainer: AMD GFX mailing list <amd-gfx@lists.freedesktop.org>
+Provides: hsakmt-roct
+Recommends: libdrm-amdgpu-dev
+Replaces: hsakmt-roct
+Version: 20230421.1.8.50600-67~20.04
+Installed-Size: 1443
+
+Package: hsakmt-roct-dev5.6.0
+Architecture: amd64
+Depends: libdrm-amdgpu-dev | libdrm-dev, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/h/hsakmt-roct-dev5.6.0/hsakmt-roct-dev5.6.0_20230421.1.8.50600-67~20.04_amd64.deb
+Size: 267148
+SHA256: c79162fe1fc8cb157da77e15e02ce182c6c51ab4bee84a2930344da5fa4d8526
+SHA1: a8f956924c097fa59d3464fb6d144938a2a05ab0
+MD5sum: 81a3c15c5637d57ca861e49d874f25ff
+Description: hsakmt built using CMake
+Homepage: https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface
+Maintainer: AMD GFX mailing list <amd-gfx@lists.freedesktop.org>
+Provides: hsakmt-roct5.6.0
+Recommends: libdrm-amdgpu-dev
+Replaces: hsakmt-roct5.6.0
+Version: 20230421.1.8.50600-67~20.04
+Installed-Size: 1443
+
+Package: migraphx
+Architecture: amd64
+Depends: miopen-hip, rocblas, hip-rocclr, hip-base, half, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/migraphx/migraphx_2.6.0.50600-67~20.04_amd64.deb
+Size: 8296934
+SHA256: 33cf5842b1366effa5260556be5829d40b4c9366d396e481a80ca6887c6a9bb1
+SHA1: 3cb86e7093702cf3ffd88cbf368f33709c3b9803
+MD5sum: 9c948377ad6ae6e62878eccdb8cf069b
+Description: AMD's graph optimizer
+Maintainer: AMDMIGraphX Maintainer <migraphx-lib.support@amd.com>
+Recommends: migraphx-dev (>=2.6.0.50600)
+Version: 2.6.0.50600-67~20.04
+Installed-Size: 274380
+
+Package: migraphx-dev
+Architecture: amd64
+Depends: migraphx (>= 2.6.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/m/migraphx-dev/migraphx-dev_2.6.0.50600-67~20.04_amd64.deb
+Size: 120058
+SHA256: ac0f25687a09d11d6cb5853833a756452f4d377acc30e95d666b8acd1f01c7ea
+SHA1: 21b2159d133ae0d5cf29e13a1ffa8b61544d5245
+MD5sum: 8b98bf32f09e9553e8ba877e4155c225
+Description: AMD's graph optimizer
+Maintainer: AMDMIGraphX Maintainer <migraphx-lib.support@amd.com>
+Version: 2.6.0.50600-67~20.04
+Installed-Size: 1274
+
+Package: migraphx-dev5.6.0
+Architecture: amd64
+Depends: migraphx5.6.0 (>= 2.6.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/m/migraphx-dev5.6.0/migraphx-dev5.6.0_2.6.0.50600-67~20.04_amd64.deb
+Size: 119068
+SHA256: d1161ac9a03c8a71df136dd359a1cc7142cf33e2180eecbd361febd0790eaf6a
+SHA1: fece9a4dec9925abbb721b4e82298bcaeea3b5d5
+MD5sum: b5146c8603f7a70b00a85661cbc71b24
+Description: AMD's graph optimizer
+Maintainer: AMDMIGraphX Maintainer <migraphx-lib.support@amd.com>
+Version: 2.6.0.50600-67~20.04
+Installed-Size: 1274
+
+Package: migraphx5.6.0
+Architecture: amd64
+Depends: miopen-hip5.6.0, rocblas5.6.0, hip-rocclr5.6.0, hip-base5.6.0, half5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/migraphx5.6.0/migraphx5.6.0_2.6.0.50600-67~20.04_amd64.deb
+Size: 8284264
+SHA256: 93a3017174ef5558329edefa8ea41eb9ff78114e986a1ea3861c8b9a99acec81
+SHA1: 3323e2cf907b21f55c4f779d94a128bcc38ec5d1
+MD5sum: ca2953c3b1b5f546a66f441238902f5f
+Description: AMD's graph optimizer
+Maintainer: AMDMIGraphX Maintainer <migraphx-lib.support@amd.com>
+Recommends: migraphx-dev5.6.0 (>=2.6.0.50600)
+Version: 2.6.0.50600-67~20.04
+Installed-Size: 274380
+
+Package: miopen-hip
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip/miopen-hip_2.20.0.50600-67~20.04_amd64.deb
+Size: 81363874
+SHA256: 9353e34ff7c9123ea2c4ded8b1a35cf1adb5276a15c92a52d5ef5233bb52f44a
+SHA1: 2f260eb0d452896b17099de89684473f81057e1a
+MD5sum: 56665f0775de6ac71d6e7fb5be31c356
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Recommends: miopen-hip-dev (>=2.20.0.50600)
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1647176
+
+Package: miopen-hip-dev
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: miopen-hip (>= 2.20.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-dev/miopen-hip-dev_2.20.0.50600-67~20.04_amd64.deb
+Size: 32150
+SHA256: c756f2270bd2034731a753ef6190c82c6ad3524298d3f1d571985db1dc19f2f1
+SHA1: e86c337755a66419055e9abc9c1f5035890d96b8
+MD5sum: 07393488bc6ba0121feeaac375e6b660
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 340
+
+Package: miopen-hip-dev5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: miopen-hip5.6.0 (>= 2.20.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-dev5.6.0/miopen-hip-dev5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 32276
+SHA256: e280be279da531e091c0a96b4719a9069d65a2864c2299245dd34ca08d62dba6
+SHA1: e5f17bdf334502440ca98c110c9fe642b9a4d3fc
+MD5sum: 9c7c6ff8808ec1dec337f97b5a4d35dc
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 340
+
+Package: miopen-hip-gfx1030-36kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx1030-36kdb/miopen-hip-gfx1030-36kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 390901188
+SHA256: daf2c1ec77b54813842f37da525c6059a2e4353751bf91decf433ec7548be8b1
+SHA1: 524bbe96383729786b8a4b59c4764ddf813c9bd2
+MD5sum: 40a112b4a721465fcbd16a897beb557b
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 727956
+
+Package: miopen-hip-gfx1030-36kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx1030-36kdb5.6.0/miopen-hip-gfx1030-36kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 390903652
+SHA256: 7f79a2690ebd31dc611b1f09bb2549a5f7e7928f2bba55b52653da110b09a6ac
+SHA1: 022e2301a38ac676e68eca1cafaf8351db133bcb
+MD5sum: fbb0c1f1454aa56a676e489a55c020de
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 727956
+
+Package: miopen-hip-gfx900-56kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx900-56kdb/miopen-hip-gfx900-56kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 272103008
+SHA256: 04eedf775bd8e729716bcab33ede3dcd758cdceefedb2a3e46a9934842a436b6
+SHA1: 27959f4fab433d31240134589261251224271d7e
+MD5sum: b50942b76786435dd5703de5bbc6aa30
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 518100
+
+Package: miopen-hip-gfx900-56kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx900-56kdb5.6.0/miopen-hip-gfx900-56kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 272102960
+SHA256: a9d555f319b6280ed40a96158e7dff6fdf92e768d466cdf6b6bea06070c72a07
+SHA1: 92cd785bf9865c17aee73219dba534967e831ab3
+MD5sum: 63c5da03e9342c4d98aa29e4056fc054
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 518100
+
+Package: miopen-hip-gfx900-64kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx900-64kdb/miopen-hip-gfx900-64kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 272103008
+SHA256: 2be69d7171f2937466c5014cba836bdb58ab2668d7e64b93d488a7b4cc86b991
+SHA1: 30ec518ddcb54699eeb9a70bccac8de296757e98
+MD5sum: 0489f1a439da87dfc942e5d4b64cea59
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 518100
+
+Package: miopen-hip-gfx900-64kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx900-64kdb5.6.0/miopen-hip-gfx900-64kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 272103204
+SHA256: 753f6e98973f94ad431169c64a2a52a26dabf17a0bfde4c0d22952d211331283
+SHA1: 0cd5b226ea6d47697456fa94ae948124547742b9
+MD5sum: 06fca1b6a6bc433f96c621f09d9699a7
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 518100
+
+Package: miopen-hip-gfx906-60kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx906-60kdb/miopen-hip-gfx906-60kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 321387208
+SHA256: 51babf99690e8fdb9a4145a4421d16cc1f550404e085a1d3810299ffe2662899
+SHA1: 7325f77bce6b600519aaa1af9fadc625540b9086
+MD5sum: 1779f66496cd33cb01433ac75360e3b1
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 607988
+
+Package: miopen-hip-gfx906-60kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx906-60kdb5.6.0/miopen-hip-gfx906-60kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 321387628
+SHA256: eed1d768ba745ede2ecdd93a41232e8c2c578849cf8ecfd5bc47f73bdc7921de
+SHA1: 43a26fb314539c08fa7180273c998ccd9dc78cad
+MD5sum: eb376e130bc2eccf9329c7aa1d85e5f5
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 607988
+
+Package: miopen-hip-gfx906-64kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx906-64kdb/miopen-hip-gfx906-64kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 308966848
+SHA256: daffd6f1e33d9326aa595c67baa7afa8c0b4b8ac208d8dd786c725969002f503
+SHA1: 7c9bb2c850112ee25dfc5e42379afcb1390dbeff
+MD5sum: 0991f79dbd4d649965a76344e420e5bc
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 583124
+
+Package: miopen-hip-gfx906-64kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx906-64kdb5.6.0/miopen-hip-gfx906-64kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 308966796
+SHA256: 4516425040e79aba78872b53e8272393bb7e75e44832c960a3b1ef78c00d0595
+SHA1: 3d4c195b824c7cc4814d556bf963dea74e77a737
+MD5sum: 037c6633d2520128c3515caba2340c27
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 583124
+
+Package: miopen-hip-gfx908-120kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx908-120kdb/miopen-hip-gfx908-120kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 776591590
+SHA256: ba1d74791470a8af403e121e7407396904ce647f9977b3cfa89d51b3fe056329
+SHA1: b8be3f496eb610679e56578590e858efb277553e
+MD5sum: 01570d619163855d32ad428013d909e7
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1719804
+
+Package: miopen-hip-gfx908-120kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx908-120kdb5.6.0/miopen-hip-gfx908-120kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 776589412
+SHA256: 07f332be838aa1f0ab0b8d59dc19e291eb8a0e0d6101e9ff6c97650df3ebf005
+SHA1: 1967ec515cc5f63187ae0adf40c57a17154aa22f
+MD5sum: a5a84ecb7f11dc88d1940225ee39e28a
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1719804
+
+Package: miopen-hip-gfx90a-104kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx90a-104kdb/miopen-hip-gfx90a-104kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 500036704
+SHA256: f29f55e9acba3e495f2e24f6e2683db05a6261204c439d8df422e1a5ffef8f94
+SHA1: 9f282522b44b75fe7e0d4389053c5a02b5ab25fd
+MD5sum: d5bf6f5bf22f261624efb9c31487b546
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1062380
+
+Package: miopen-hip-gfx90a-104kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx90a-104kdb5.6.0/miopen-hip-gfx90a-104kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 500035240
+SHA256: 9bda08f6332486563f2df3e1fefe2379a32afc11f55fcddd05d4cc4b4e605e82
+SHA1: f98edae9981997d0b44681c60ee40668f3367217
+MD5sum: 1d16612124ec9b75047c610f355d202c
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1062380
+
+Package: miopen-hip-gfx90a-110kdb
+Architecture: amd64
+Conflicts: miopen-opencl
+Depends: hip-rocclr, rocblas, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx90a-110kdb/miopen-hip-gfx90a-110kdb_2.20.0.50600-67~20.04_amd64.deb
+Size: 261946534
+SHA256: 37221956a568b5fe8dc33e7a2f61a8ed2728faa85b20e6f82ce6809d6bc5dd57
+SHA1: 406ab920d3ffc1edf822cf3dd7853c7e4c2591d7
+MD5sum: 1642737eb69425aa5b9c1dc13fbbaec8
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 597628
+
+Package: miopen-hip-gfx90a-110kdb5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip-gfx90a-110kdb5.6.0/miopen-hip-gfx90a-110kdb5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 261949784
+SHA256: 6a796422a747952f2f26b4001db7582175a2e362836f4eacea19e09af5f6d23a
+SHA1: e6ab67b2fd700371ad2cf8ee3d8ff40d50f7e5e3
+MD5sum: 6d276b983e310b38d889b8aabcbef4b8
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 597628
+
+Package: miopen-hip5.6.0
+Architecture: amd64
+Conflicts: miopen-opencl5.6.0
+Depends: hip-rocclr5.6.0, rocblas5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/miopen-hip5.6.0/miopen-hip5.6.0_2.20.0.50600-67~20.04_amd64.deb
+Size: 81365044
+SHA256: 104a1d6ab7d85be22d006823b1f620c6763c68421ce621d63261366fed5664e0
+SHA1: 8a18eaa0ce34828e73a4322fbda3d0a9bf2f99c9
+MD5sum: 69bcd6d24ec4d2ce9930beadf775387b
+Description: AMD's DNN Library
+Maintainer: MIOpen Maintainer <miopen-lib.support@amd.com>
+Recommends: miopen-hip-dev5.6.0 (>=2.20.0.50600)
+Version: 2.20.0.50600-67~20.04
+Installed-Size: 1647176
+
+Package: mivisionx
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/m/mivisionx/mivisionx_2.5.0.50600-67~20.04_amd64.deb
+Size: 32381392
+SHA256: 2c99413eddceb8c5cf1f0d6210779524f8ecbd3d437c377bb42d3d5f320c9f58
+SHA1: 67aa96a1de7c889c973a71ff2d670e73dde88ede
+MD5sum: a574d70b023deb77b95768826e73f82c
+Description: AMD MIVisionX is a comprehensive Computer Vision and ML Inference Toolkit
+ MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX delivers highly optimized open-source implementation of the Khronos OpenVX and OpenVX Extensions along with Convolution Neural Net Model Compiler & Optimizer supporting ONNX, and Khronos NNEF exchange formats. The toolkit allows for rapid prototyping and deployment of optimized computer vision and machine learning inference workloads on a wide range of computer hardware, including small embedded x86 CPUs, APUs, discrete GPUs, and heterogeneous servers.
+Homepage: https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/
+Maintainer: MIVisionX Support <mivisionx.support@amd.com>
+Version: 2.5.0.50600-67~20.04
+Installed-Size: 86999
+
+Package: mivisionx5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/m/mivisionx5.6.0/mivisionx5.6.0_2.5.0.50600-67~20.04_amd64.deb
+Size: 21316768
+SHA256: 1251c1c39f84945ae1fd9b561a10da0e5ddecf2c203e971ceaaaf9aded5ee139
+SHA1: 5b5457cb42e0d5b6dea24a5894a5fd5104022170
+MD5sum: a46734be47198d7caa3ecd81fed7f1e0
+Description: AMD MIVisionX is a comprehensive Computer Vision and ML Inference Toolkit
+ MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX delivers highly optimized open-source implementation of the Khronos OpenVX and OpenVX Extensions along with Convolution Neural Net Model Compiler & Optimizer supporting ONNX, and Khronos NNEF exchange formats. The toolkit allows for rapid prototyping and deployment of optimized computer vision and machine learning inference workloads on a wide range of computer hardware, including small embedded x86 CPUs, APUs, discrete GPUs, and heterogeneous servers.
+Homepage: https://gpuopen-professionalcompute-libraries.github.io/MIVisionX/
+Maintainer: MIVisionX Support <mivisionx.support@amd.com>
+Version: 2.5.0.50600-67~20.04
+Installed-Size: 86999
+
+Package: openmp-extras-dev
+Architecture: amd64
+Maintainer: Openmp Extras Support <openmp-extras.support@amd.com>
+Version: 16.56.0.50600-67~20.04
+Depends: rocm-llvm, rocm-device-libs, rocm-core, openmp-extras-runtime, hsa-rocr-dev
+Recommends: gcc, g++
+Provides: openmp-extras
+Conflicts: openmp-extras
+Replaces: openmp-extras
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmp-extras-dev/openmp-extras-dev_16.56.0.50600-67~20.04_amd64.deb
+Size: 25371512
+SHA256: 9c3d7158384aac0b4f8da812a5981f7f9e5c533b3e23335ab0e613ec1e3287e4
+SHA1: 1e5ce94035d74492527dd019e07b2d34d0ca67b7
+MD5sum: b9ee74e279bb719bace6fdc9e7c13654
+Description: OpenMP Extras provides openmp and flang libraries.
+  openmp-extras 16.56.0.50600 is based on LLVM 15 and is used for offloading to Radeon GPUs.
+
+Package: openmp-extras-dev5.6.0
+Architecture: amd64
+Maintainer: Openmp Extras Support <openmp-extras.support@amd.com>
+Version: 16.56.0.50600-67~20.04
+Depends: rocm-llvm5.6.0, rocm-device-libs5.6.0, rocm-core5.6.0, openmp-extras-runtime5.6.0, hsa-rocr-dev5.6.0
+Recommends: gcc, g++
+Provides: openmp-extras5.6.0
+Conflicts: openmp-extras5.6.0
+Replaces: openmp-extras5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmp-extras-dev5.6.0/openmp-extras-dev5.6.0_16.56.0.50600-67~20.04_amd64.deb
+Size: 6543844
+SHA256: 34c02ada8c3a614e14f8f4c5a935601472ebf14be1c59bc58d204b9b0ec12540
+SHA1: c8b6f1cb077ba705f13845fb7e8d52496c55e84c
+MD5sum: 300b8dbd05e5d7ff5a63c2e563cbe4e8
+Description: OpenMP Extras provides openmp and flang libraries.
+  openmp-extras 16.56.0.50600 is based on LLVM 15 and is used for offloading to Radeon GPUs.
+
+Package: openmp-extras-runtime
+Architecture: amd64
+Maintainer: Openmp Extras Support <openmp-extras.support@amd.com>
+Version: 16.56.0.50600-67~20.04
+Depends: rocm-core, hsa-rocr
+Recommends: gcc, g++
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmp-extras-runtime/openmp-extras-runtime_16.56.0.50600-67~20.04_amd64.deb
+Size: 11483886
+SHA256: 8c8f97406060b9494d6deadd935c87b6b3f104f9dc074678ed3c940d45872ddf
+SHA1: 1842446139a5a37fcda99a5098139a6d8eefa89a
+MD5sum: 04d4a9dd28e95798c574d130934e9424
+Description: OpenMP Extras provides openmp and flang libraries.
+  openmp-extras 16.56.0.50600 is based on LLVM 15 and is used for offloading to Radeon GPUs.
+
+Package: openmp-extras-runtime5.6.0
+Architecture: amd64
+Maintainer: Openmp Extras Support <openmp-extras.support@amd.com>
+Version: 16.56.0.50600-67~20.04
+Depends: rocm-core5.6.0, hsa-rocr5.6.0
+Recommends: gcc, g++
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmp-extras-runtime5.6.0/openmp-extras-runtime5.6.0_16.56.0.50600-67~20.04_amd64.deb
+Size: 6006444
+SHA256: 493e6037640ba7f252cd5a88e01c6af39ceb1f19caaf79e2229250338d3e74c0
+SHA1: 651bf23733df4f725f37084bdf9a24cfbdb5f3f6
+MD5sum: efc0c8a47502c320ca92b7d115495a31
+Description: OpenMP Extras provides openmp and flang libraries.
+  openmp-extras 16.56.0.50600 is based on LLVM 15 and is used for offloading to Radeon GPUs.
+
+Package: rccl
+Architecture: amd64
+Depends: hip-rocclr (>= 3.5.0), rocm-smi-lib (>= 4.0.0), rocm-core, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rccl/rccl_2.16.5.50600-67~20.04_amd64.deb
+Size: 14610914
+SHA256: 61f734d00deb7231999fa4367137ee4674e8c0b2000a274f2e45a7f44d4fc44f
+SHA1: 33dfc9bec8d275345fab486b08342740a1846d19
+MD5sum: 8f7322fe907797a37aa2775496b2a9d4
+Description: ROCm Communication Collectives Library
+ ROCm Communication Collectives Library
+ Optimized primitives for collective multi-GPU communication
+Maintainer: RCCL Maintainer <rccl-maintainer@amd.com>
+Recommends: rccl-dev (>=2.16.5.50600)
+Version: 2.16.5.50600-67~20.04
+Installed-Size: 546041
+
+Package: rccl-dev
+Architecture: amd64
+Depends: rccl (>= 2.16.5.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rccl-dev/rccl-dev_2.16.5.50600-67~20.04_amd64.deb
+Size: 11384
+SHA256: 1366cb84aad0081753281cab70543075501b4ba046b59229404023ff4f805ff6
+SHA1: 0b99ccac602369e800e22606d085117d786597a2
+MD5sum: ad76168b12debcd345444ee64211cfac
+Description: ROCm Communication Collectives Library
+ ROCm Communication Collectives Library
+ Optimized primitives for collective multi-GPU communication
+Maintainer: RCCL Maintainer <rccl-maintainer@amd.com>
+Version: 2.16.5.50600-67~20.04
+Installed-Size: 141
+
+Package: rccl-dev5.6.0
+Architecture: amd64
+Depends: rccl5.6.0 (>= 2.16.5.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rccl-dev5.6.0/rccl-dev5.6.0_2.16.5.50600-67~20.04_amd64.deb
+Size: 11508
+SHA256: ff54428315afce03c8ac56101f693a8896d66a2f8943265abae97181fe15c059
+SHA1: 8f6623c0b0873460a3132fd5adf39aac0a7819d6
+MD5sum: 86d645a2b8f5fcb253507e2c674ab2d0
+Description: ROCm Communication Collectives Library
+ ROCm Communication Collectives Library
+ Optimized primitives for collective multi-GPU communication
+Maintainer: RCCL Maintainer <rccl-maintainer@amd.com>
+Version: 2.16.5.50600-67~20.04
+Installed-Size: 141
+
+Package: rccl-rdma-sharp-plugins
+Version: 1.0.50600-67~20.04
+Architecture: amd64
+Maintainer: rccl-maintainer@amd.com
+Installed-Size: 334
+Depends: libc6 (>= 2.14), libibverbs1 (>= 28), sharp, ucx
+Homepage: http://www.amd.com
+Priority: extra
+Section: libs
+Filename: pool/main/r/rccl-rdma-sharp-plugins/rccl-rdma-sharp-plugins_1.0.50600-67~20.04_amd64.deb
+Size: 111322
+SHA256: 602958219b65b4056c11ca65e002dd1721ae819cf8f497997bab603f0bb51573
+SHA1: e8fd9a2bbc37f0368d2f99bd3138920d24230928
+MD5sum: 1dfce4127fc00617461cce2684a75418
+Description: RDMA and SHARP plugin for NCCL
+ Plugin enabled RDMA and  switch collectives(SHARP) in RCCL
+
+Package: rccl-rdma-sharp-plugins5.6.0
+Version: 1.0.50600-67~20.04
+Architecture: amd64
+Maintainer: rccl-maintainer@amd.com
+Installed-Size: 334
+Depends: libc6 (>= 2.14), libibverbs1 (>= 28), sharp, ucx
+Homepage: http://www.amd.com
+Priority: extra
+Section: libs
+Filename: pool/main/r/rccl-rdma-sharp-plugins5.6.0/rccl-rdma-sharp-plugins5.6.0_1.0.50600-67~20.04_amd64.deb
+Size: 69144
+SHA256: 8eb1a828be70d60fd292d6a85f4956359d08debddf5eabc49d85d1bb04dd02e9
+SHA1: 0080c1a643f98787aa9ef8244bc800864e1a2c15
+MD5sum: f9c2f064ea39a5235b9ae854ca870611
+Description: RDMA and SHARP plugin for NCCL
+ Plugin enabled RDMA and  switch collectives(SHARP) in RCCL
+
+Package: rccl5.6.0
+Architecture: amd64
+Depends: hip-rocclr5.6.0 (>= 3.5.0), rocm-smi-lib5.6.0 (>= 4.0.0), rocm-core5.6.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rccl5.6.0/rccl5.6.0_2.16.5.50600-67~20.04_amd64.deb
+Size: 14611432
+SHA256: 665dfbcc7f99a005b6b56cf84fa8472a43af53aeac18af72d04596cde0050d28
+SHA1: c60b31b4f6cf7d5f87dab93637f47341ba85e149
+MD5sum: a3e8e16b6ca13f602cbb1bf3fee272d4
+Description: ROCm Communication Collectives Library
+ ROCm Communication Collectives Library
+ Optimized primitives for collective multi-GPU communication
+Maintainer: RCCL Maintainer <rccl-maintainer@amd.com>
+Recommends: rccl-dev5.6.0 (>=2.16.5.50600)
+Version: 2.16.5.50600-67~20.04
+Installed-Size: 546041
+
+Package: rdc
+Architecture: amd64
+Depends: rocm-smi-lib, libc6, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rdc/rdc_0.3.0.50600-67~20.04_amd64.deb
+Size: 13186454
+SHA256: f9d4048e1478f5fed5652fad36e3131eb51351ef0b0ef001997d85cd3a17f97d
+SHA1: 9489242dd3a3edbfa302428617eed5af07a47b7e
+MD5sum: c368b52af450a490ac63fb44062fec6d
+Description: Radeon Data Center Tools
+Homepage: https://github.com/RadeonOpenCompute/rdc
+Maintainer: RDC Support <rdc.support@amd.com>
+Version: 0.3.0.50600-67~20.04
+Installed-Size: 100250
+
+Package: rdc5.6.0
+Architecture: amd64
+Depends: rocm-smi-lib5.6.0, libc6, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rdc5.6.0/rdc5.6.0_0.3.0.50600-67~20.04_amd64.deb
+Size: 9099324
+SHA256: ee7b2f7db4fbaf0bc8c1ec95b6b620f38ae06f7cb5ab9080e9f050ee05ba9bf9
+SHA1: 13d6e2cbbebd5d621a63e9c0e0551eeed50d6bee
+MD5sum: c0f39720c40d4048e6a9668df366ee70
+Description: Radeon Data Center Tools
+Homepage: https://github.com/RadeonOpenCompute/rdc
+Maintainer: RDC Support <rdc.support@amd.com>
+Version: 0.3.0.50600-67~20.04
+Installed-Size: 100250
+
+Package: rocalution
+Architecture: amd64
+Depends: hip-rocclr (>= 4.0.0), rocsparse (>= 1.12.10), rocblas (>= 2.22.0), rocrand (>= 0.0.1), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocalution/rocalution_2.1.9.50600-67~20.04_amd64.deb
+Size: 2504242
+SHA256: 00f4c73a2fabffadfcc3c229352bb0d63a836c89375fcf592dc30fcc7ac656b7
+SHA1: a0877dbd811532ebf581fda5a2306e82e77f8ff4
+MD5sum: 6532bb0af460426c4d8d2c4a46c65cd1
+Description: Radeon Open Compute library for sparse linear systems
+Maintainer: rocALUTION Maintainer <rocalution-maintainer@amd.com>
+Recommends: rocalution-dev (>=2.1.9.50600)
+Version: 2.1.9.50600-67~20.04
+Installed-Size: 61499
+
+Package: rocalution-dev
+Architecture: amd64
+Depends: rocalution (>= 2.1.9.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocalution-dev/rocalution-dev_2.1.9.50600-67~20.04_amd64.deb
+Size: 43262
+SHA256: 8fcb60ef5d832729c4e0cca90f5e1c06de7c72e4546b0e2bd216342b951d4ec3
+SHA1: 2ccdfc1f33486faed385be2f456cd3976b278929
+MD5sum: 0685e2161d1fc4e2bcd0b84fbe52db07
+Description: Radeon Open Compute library for sparse linear systems
+Maintainer: rocALUTION Maintainer <rocalution-maintainer@amd.com>
+Version: 2.1.9.50600-67~20.04
+Installed-Size: 511
+
+Package: rocalution-dev5.6.0
+Architecture: amd64
+Depends: rocalution5.6.0 (>= 2.1.9.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocalution-dev5.6.0/rocalution-dev5.6.0_2.1.9.50600-67~20.04_amd64.deb
+Size: 43012
+SHA256: de576d44ffbf4f37b88eaa581178e5c57c5b386cb05cd0476ba71d75cdb89263
+SHA1: 7d160b0ab6e0e18b23ff5288bbe7449ddefd8fed
+MD5sum: b45ff3ad12fd8d5d9474cd8570df1756
+Description: Radeon Open Compute library for sparse linear systems
+Maintainer: rocALUTION Maintainer <rocalution-maintainer@amd.com>
+Version: 2.1.9.50600-67~20.04
+Installed-Size: 511
+
+Package: rocalution5.6.0
+Architecture: amd64
+Depends: hip-rocclr5.6.0 (>= 4.0.0), rocsparse5.6.0 (>= 1.12.10), rocblas5.6.0 (>= 2.22.0), rocrand5.6.0 (>= 0.0.1), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocalution5.6.0/rocalution5.6.0_2.1.9.50600-67~20.04_amd64.deb
+Size: 2500512
+SHA256: ed414d4978a2c9e3bfd2e48c5abeefaec3d07b43e678104117d8118de88c7000
+SHA1: a5fd6afc00b70888f1921c7be809f6648b44cff1
+MD5sum: 5e6504abe71dee9d97ddd7fa4427c0c2
+Description: Radeon Open Compute library for sparse linear systems
+Maintainer: rocALUTION Maintainer <rocalution-maintainer@amd.com>
+Recommends: rocalution-dev5.6.0 (>=2.1.9.50600)
+Version: 2.1.9.50600-67~20.04
+Installed-Size: 61499
+
+Package: rocblas
+Architecture: amd64
+Depends: hip-rocclr (>= 4.0.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocblas/rocblas_3.0.0.50600-67~20.04_amd64.deb
+Size: 83767512
+SHA256: 4d5da49af7452ddd9c0f239affce064637650852d45f1b8f678139aebac22099
+SHA1: 6cf2995fe5a116ee0fead70b88f4c7eac2530420
+MD5sum: 8fe59db937481aa4ddc7c09ca6e57081
+Description: rocBLAS is AMD's library for BLAS on ROCm. It is implemented in HIP and optimized for AMD GPUs.
+Maintainer: rocBLAS Maintainer <rocblas-maintainer@amd.com>
+Recommends: rocblas-dev (>=3.0.0.50600)
+Version: 3.0.0.50600-67~20.04
+Installed-Size: 3715247
+
+Package: rocblas-dev
+Architecture: amd64
+Depends: rocblas (>= 3.0.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocblas-dev/rocblas-dev_3.0.0.50600-67~20.04_amd64.deb
+Size: 70258
+SHA256: a5b5be89ec006200c9d1ec801264837da90340d15d930f65118f13dfc08b312b
+SHA1: edbc8140411df85971ff431bc93e93b8ccd9fb70
+MD5sum: 4727f74e750854b99afd7f85f0506296
+Description: rocBLAS is AMD's library for BLAS on ROCm. It is implemented in HIP and optimized for AMD GPUs.
+Maintainer: rocBLAS Maintainer <rocblas-maintainer@amd.com>
+Version: 3.0.0.50600-67~20.04
+Installed-Size: 2841
+
+Package: rocblas-dev5.6.0
+Architecture: amd64
+Depends: rocblas5.6.0 (>= 3.0.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocblas-dev5.6.0/rocblas-dev5.6.0_3.0.0.50600-67~20.04_amd64.deb
+Size: 70328
+SHA256: 1a7660d4b04ea95153bbc06ccdab284b503b4dab72a246fb05e43d4aeca74efa
+SHA1: ad53086c98c95f6edfe445155fa9a81d8084738c
+MD5sum: 0643d7ade5e204e710da2cb6b3643045
+Description: rocBLAS is AMD's library for BLAS on ROCm. It is implemented in HIP and optimized for AMD GPUs.
+Maintainer: rocBLAS Maintainer <rocblas-maintainer@amd.com>
+Version: 3.0.0.50600-67~20.04
+Installed-Size: 2841
+
+Package: rocblas5.6.0
+Architecture: amd64
+Depends: hip-rocclr5.6.0 (>= 4.0.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocblas5.6.0/rocblas5.6.0_3.0.0.50600-67~20.04_amd64.deb
+Size: 83730880
+SHA256: 53c197e62c23bbf46327d6c8f4b51881aa854e183c33240e191b042ff17ff77d
+SHA1: cc299796808c89ef65de9ff8ac69ae6b1b4beaf7
+MD5sum: 4b2622e567b3bdf2e5f27d711e66e04c
+Description: rocBLAS is AMD's library for BLAS on ROCm. It is implemented in HIP and optimized for AMD GPUs.
+Maintainer: rocBLAS Maintainer <rocblas-maintainer@amd.com>
+Recommends: rocblas-dev5.6.0 (>=3.0.0.50600)
+Version: 3.0.0.50600-67~20.04
+Installed-Size: 3715247
+
+Package: rocfft
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocfft/rocfft_1.0.23.50600-67~20.04_amd64.deb
+Size: 73888222
+SHA256: 7a8d466813c3f4db713cd6a87e743559efbd9351f7b795d1fb3f31741f9bb2b7
+SHA1: ab82cb7c25d4e2f4f6fa7db5d76ca1f4dceb29ef
+MD5sum: 0de58eb060cb88a7a3cce40241906dca
+Description: ROCm FFT library
+Maintainer: rocfft-maintainer@amd.com
+Recommends: rocfft-dev (>=1.0.23.50600)
+Version: 1.0.23.50600-67~20.04
+Installed-Size: 1655550
+
+Package: rocfft-dev
+Architecture: amd64
+Depends: rocfft (>= 1.0.23.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocfft-dev/rocfft-dev_1.0.23.50600-67~20.04_amd64.deb
+Size: 10442
+SHA256: ed40426bad28f268c7b04affa33b378248789c7a331d58d23701c7d2acdd4a6b
+SHA1: 5ebc77093084539de2ca145b59ddf5e1766985e6
+MD5sum: 78eef060a4e2af6f108d78719cde75cb
+Description: ROCm FFT library
+Maintainer: rocfft-maintainer@amd.com
+Version: 1.0.23.50600-67~20.04
+Installed-Size: 106
+
+Package: rocfft-dev5.6.0
+Architecture: amd64
+Depends: rocfft5.6.0 (>= 1.0.23.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocfft-dev5.6.0/rocfft-dev5.6.0_1.0.23.50600-67~20.04_amd64.deb
+Size: 10576
+SHA256: 44554e81b75e931c5d8381a81e91ea29571e07675f4421c42237744c6ce4ac45
+SHA1: 68f84f793344e1bdeee8a1c954a64ba85c9da88c
+MD5sum: 8feb99da96bb629c1621128db977f882
+Description: ROCm FFT library
+Maintainer: rocfft-maintainer@amd.com
+Version: 1.0.23.50600-67~20.04
+Installed-Size: 106
+
+Package: rocfft5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocfft5.6.0/rocfft5.6.0_1.0.23.50600-67~20.04_amd64.deb
+Size: 73888260
+SHA256: 5ea1ae3d041a29f7be65ef964f10138b3341b69827dadebcdb5496e4c541762e
+SHA1: 3c734b6ff2eeb862cf554c10317fa537e3525a10
+MD5sum: 827dfd2a23174dcf468ec583c7455dca
+Description: ROCm FFT library
+Maintainer: rocfft-maintainer@amd.com
+Recommends: rocfft-dev5.6.0 (>=1.0.23.50600)
+Version: 1.0.23.50600-67~20.04
+Installed-Size: 1655550
+
+Package: rocm-bandwidth-test
+Architecture: amd64
+Depends: libstdc++6, hsa-rocr
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-bandwidth-test/rocm-bandwidth-test_1.4.0.50600-67~20.04_amd64.deb
+Size: 61332
+SHA256: fe8d61703c13f14ffbc359791b10253ff89cf8587512d819e59f98c53d0814d1
+SHA1: f1525d0dbd4f1b682066c7bea08aee7d866fd7d6
+MD5sum: 684e6057b2b0fda9637781814340419d
+Description: Diagnostic utility tool to measure PCIe bandwidth on ROCm platforms
+Homepage: https://github.com/RadeonOpenCompute/rocm_bandwidth_test
+Maintainer: TODO <Add a valid email id>
+Version: 1.4.0.50600-67~20.04
+Installed-Size: 177
+
+Package: rocm-bandwidth-test5.6.0
+Architecture: amd64
+Depends: libstdc++6, hsa-rocr5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-bandwidth-test5.6.0/rocm-bandwidth-test5.6.0_1.4.0.50600-67~20.04_amd64.deb
+Size: 49944
+SHA256: 6f87cccd0c094f53c962568558bdf3a7a0fa9d3d341b9b343e75b226aa6418b2
+SHA1: c8a36832d6e45592e04d68b20753f5cad3ff339a
+MD5sum: 8de76a400a0cf42a8ef5483782cbf79b
+Description: Diagnostic utility tool to measure PCIe bandwidth on ROCm platforms
+Homepage: https://github.com/RadeonOpenCompute/rocm_bandwidth_test
+Maintainer: TODO <Add a valid email id>
+Version: 1.4.0.50600-67~20.04
+Installed-Size: 177
+
+Package: rocm-clang-ocl
+Architecture: amd64
+Depends: rocm-llvm, rocm-opencl-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-clang-ocl/rocm-clang-ocl_0.5.0.50600-67~20.04_amd64.deb
+Size: 2972
+SHA256: 3661a2f6360f810ed596392bee0e128e3b875565acc2fd6063b4dd41f313e93d
+SHA1: 0967a8d4c00bdaefd1728fd61701c864c247ab14
+MD5sum: 0aba7b387c2dcf0995488c3cc71e6f72
+Description: OpenCL compilation with clang compiler.
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Version: 0.5.0.50600-67~20.04
+Installed-Size: 30
+
+Package: rocm-clang-ocl5.6.0
+Architecture: amd64
+Depends: rocm-llvm5.6.0, rocm-opencl-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-clang-ocl5.6.0/rocm-clang-ocl5.6.0_0.5.0.50600-67~20.04_amd64.deb
+Size: 3128
+SHA256: c314aa9eda112922bdd6ff2261415533051dd85bd71882661357b1a1609c9591
+SHA1: f585897313ef0c265451aa14703c04feddbcc2c8
+MD5sum: dcaadddec75a7b1f46b164c658ee9552
+Description: OpenCL compilation with clang compiler.
+Maintainer: Paul Fultz II <paul.fultz@amd.com>
+Version: 0.5.0.50600-67~20.04
+Installed-Size: 30
+
+Package: rocm-cmake
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-cmake/rocm-cmake_0.9.0.50600-67~20.04_amd64.deb
+Size: 20940
+SHA256: 6bbe3ccaeb3e5af67a5f069888e7afaa5e4e0aa7b7d1840d6ef8115a93551d83
+SHA1: 92f7ac7962596bf35895c0180ae8527714d11db5
+MD5sum: 5b358d24f6cf715a09017fdd025f50ec
+Description: rocm-cmake built using CMake
+Maintainer: Paul Fultz II pfultz@amd.com
+Version: 0.9.0.50600-67~20.04
+Installed-Size: 126
+
+Package: rocm-cmake5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-cmake5.6.0/rocm-cmake5.6.0_0.9.0.50600-67~20.04_amd64.deb
+Size: 21060
+SHA256: d37b620c8763cd205fe6822c53009c684b6658565a34e06f9f19c8fe275a6dfb
+SHA1: 612d22a571d6907c7157b8184be977f1ba0e7e28
+MD5sum: 8123185e63097e465d6c4b299b97f44b
+Description: rocm-cmake built using CMake
+Maintainer: Paul Fultz II pfultz@amd.com
+Version: 0.9.0.50600-67~20.04
+Installed-Size: 126
+
+Package: rocm-core
+Architecture: amd64
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-core/rocm-core_5.6.0.50600-67~20.04_amd64.deb
+Size: 6674
+SHA256: 26dc9a18e68029461059dfdd5b9db1b6937a13a4a68857c9f1455e887c7ad435
+SHA1: 38f9267c73dc04665c2751f9ef865b2a283b1433
+MD5sum: d3df99bfd9927b5f5d4534e977edfc38
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 85
+
+Package: rocm-core5.6.0
+Architecture: amd64
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-core5.6.0/rocm-core5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 6216
+SHA256: 13928b19ee7609da5e979197e410915ef589cea50c3f38999edf401ed23d2878
+SHA1: f6918720c14537242570380f0a26604be9917cf8
+MD5sum: 42b9cce59d37c4a0dcfcc4b98733d447
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 85
+
+Package: rocm-dbgapi
+Architecture: amd64
+Depends: comgr(>=1.2.0), rocm-core, pci.ids
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dbgapi/rocm-dbgapi_0.70.1.50600-67~20.04_amd64.deb
+Size: 1636890
+SHA256: 1f9041ead26997bbdab1e4e79a069b0cf4bc20030032a8364efdf5c8ff60c205
+SHA1: 85436996f35b5f2d516224fd0e880700cdad3bef
+MD5sum: 9886fe6dcadd5974f479d083d3f6ca0f
+Description: Library to provide AMD GPU debugger API
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Version: 0.70.1.50600-67~20.04
+Installed-Size: 6965
+
+Package: rocm-dbgapi5.6.0
+Architecture: amd64
+Depends: comgr5.6.0(>=1.2.0), rocm-core5.6.0, pci.ids
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dbgapi5.6.0/rocm-dbgapi5.6.0_0.70.1.50600-67~20.04_amd64.deb
+Size: 1282360
+SHA256: 01e91a74058a658c2231e9cb28bd81e72d28061c1b1dfb0da52a3ea0f72b46a0
+SHA1: 663d244d6f2bd012726bc90f6f7e7814ff7f5db5
+MD5sum: b6dc1ee6a3f47ad5ad89066a671ed88b
+Description: Library to provide AMD GPU debugger API
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Version: 0.70.1.50600-67~20.04
+Installed-Size: 6965
+
+Package: rocm-debug-agent
+Architecture: amd64
+Depends: rocm-dbgapi, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-debug-agent/rocm-debug-agent_2.0.3.50600-67~20.04_amd64.deb
+Size: 55944
+SHA256: 01745bee07d7453689ba1b199a8cdbb375edec3805033b73b24ab01c13429be3
+SHA1: 7631e8118677b588c0769259d89589a450503173
+MD5sum: edc3641f62d5cf7f65f956cbdd65ce2f
+Description: Radeon Open Compute Debug Agent (ROCdebug-agent)
+ Dynamic libraries for the ROCdebug-agent
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Version: 2.0.3.50600-67~20.04
+Installed-Size: 286
+
+Package: rocm-debug-agent5.6.0
+Architecture: amd64
+Depends: rocm-dbgapi5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-debug-agent5.6.0/rocm-debug-agent5.6.0_2.0.3.50600-67~20.04_amd64.deb
+Size: 45964
+SHA256: f4e4f9e223adfcadd9e4dff2a23bb7d2885a3d28a82d07bbdbd6beef263961d4
+SHA1: 90c32aa51e65ffa3beedffdef543033db0b5bde9
+MD5sum: f1241fbd07144f3cb0a25bcf2fa65c5d
+Description: Radeon Open Compute Debug Agent (ROCdebug-agent)
+ Dynamic libraries for the ROCdebug-agent
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Version: 2.0.3.50600-67~20.04
+Installed-Size: 286
+
+Package: rocm-dev
+Architecture: amd64
+Depends: comgr (= 2.5.0.50600-67~20.04), hip-doc (= 5.6.31061.50600-67~20.04), hipcc (= 1.0.0.50600-67~20.04), hipify-clang (= 16.0.0.50600-67~20.04), hip-runtime-amd (= 5.6.31061.50600-67~20.04), hip-samples (= 5.6.31061.50600-67~20.04), hsa-rocr (= 1.9.0.50600-67~20.04), hsa-amd-aqlprofile (= 1.0.0.50600-67~20.04), rocm-llvm (= 16.0.0.23243.50600-67~20.04), openmp-extras-runtime (= 16.56.0.50600-67~20.04), rocm-cmake (= 0.9.0.50600-67~20.04), rocm-dbgapi (= 0.70.1.50600-67~20.04), rocm-debug-agent (= 2.0.3.50600-67~20.04), rocm-device-libs (= 1.0.0.50600-67~20.04), rocm-gdb (= 13.1.50600-67~20.04), rocm-smi-lib (= 5.0.0.50600-67~20.04), rocm-utils (= 5.6.0.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), rocm-opencl (= 2.0.0.50600-67~20.04), rocm-ocl-icd (= 2.0.0.50600-67~20.04), rocprofiler (= 2.0.0.50600-67~20.04), roctracer (= 4.1.0.50600-67~20.04), hip-dev (= 5.6.31061.50600-67~20.04), hsa-rocr-dev (= 1.9.0.50600-67~20.04), hsakmt-roct-dev (= 20230421.1.8.50600-67~20.04), rocprofiler-dev (= 2.0.0.50600-67~20.04), roctracer-dev (= 4.1.0.50600-67~20.04), openmp-extras-dev (= 16.56.0.50600-67~20.04), rocm-opencl-dev (= 2.0.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dev/rocm-dev_5.6.0.50600-67~20.04_amd64.deb
+Size: 2400
+SHA256: 4bca36167494163c9252a5cafcba1414dc9e5b3d1143192bef471a239a013bba
+SHA1: faa388d738852332385a834662382d68fd7124d0
+MD5sum: 33527d2e311b10272a3743c17ef2fa97
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-dev5.6.0
+Architecture: amd64
+Depends: comgr5.6.0 (= 2.5.0.50600-67~20.04), hip-doc5.6.0 (= 5.6.31061.50600-67~20.04), hipcc5.6.0 (= 1.0.0.50600-67~20.04), hipify-clang5.6.0 (= 16.0.0.50600-67~20.04), hip-runtime-amd5.6.0 (= 5.6.31061.50600-67~20.04), hip-samples5.6.0 (= 5.6.31061.50600-67~20.04), hsa-rocr5.6.0 (= 1.9.0.50600-67~20.04), hsa-amd-aqlprofile5.6.0 (= 1.0.0.50600-67~20.04), rocm-llvm5.6.0 (= 16.0.0.23243.50600-67~20.04), openmp-extras-runtime5.6.0 (= 16.56.0.50600-67~20.04), rocm-cmake5.6.0 (= 0.9.0.50600-67~20.04), rocm-dbgapi5.6.0 (= 0.70.1.50600-67~20.04), rocm-debug-agent5.6.0 (= 2.0.3.50600-67~20.04), rocm-device-libs5.6.0 (= 1.0.0.50600-67~20.04), rocm-gdb5.6.0 (= 13.1.50600-67~20.04), rocm-smi-lib5.6.0 (= 5.0.0.50600-67~20.04), rocm-utils5.6.0 (= 5.6.0.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-opencl5.6.0 (= 2.0.0.50600-67~20.04), rocm-ocl-icd5.6.0 (= 2.0.0.50600-67~20.04), rocprofiler5.6.0 (= 2.0.0.50600-67~20.04), roctracer5.6.0 (= 4.1.0.50600-67~20.04), hip-dev5.6.0 (= 5.6.31061.50600-67~20.04), hsa-rocr-dev5.6.0 (= 1.9.0.50600-67~20.04), hsakmt-roct-dev5.6.0 (= 20230421.1.8.50600-67~20.04), rocprofiler-dev5.6.0 (= 2.0.0.50600-67~20.04), roctracer-dev5.6.0 (= 4.1.0.50600-67~20.04), openmp-extras-dev5.6.0 (= 16.56.0.50600-67~20.04), rocm-opencl-dev5.6.0 (= 2.0.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dev5.6.0/rocm-dev5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 2560
+SHA256: 689b5fbffaf1f3fdf5ab35e3740b30ba4ed1cd9262e2d0e5ee7f95481a2c937f
+SHA1: da1b28918e2909d401cf38d8450fe98435450880
+MD5sum: ff97a4f2f2e144b5e24b7d638fba66e7
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-developer-tools
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-language-runtime (= 5.6.0.50600-67~20.04), rocm-dbgapi (= 0.70.1.50600-67~20.04), rocm-debug-agent (= 2.0.3.50600-67~20.04), rocm-gdb (= 13.1.50600-67~20.04), hsa-amd-aqlprofile (= 1.0.0.50600-67~20.04), rocm-smi-lib (= 5.0.0.50600-67~20.04), rocprofiler (= 2.0.0.50600-67~20.04), roctracer (= 4.1.0.50600-67~20.04), rocprofiler-dev (= 2.0.0.50600-67~20.04), roctracer-dev (= 4.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-developer-tools/rocm-developer-tools_5.6.0.50600-67~20.04_amd64.deb
+Size: 2122
+SHA256: 764e5a36671fe9d8e1b5020abd06b76bf2329a0dc3da51127a9702c65ecb0fc3
+SHA1: da05fb51d83172610561399f0424dc151944f899
+MD5sum: f0cb709df9be5c37b98754ddc9ee3156
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-developer-tools5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-language-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocm-dbgapi5.6.0 (= 0.70.1.50600-67~20.04), rocm-debug-agent5.6.0 (= 2.0.3.50600-67~20.04), rocm-gdb5.6.0 (= 13.1.50600-67~20.04), hsa-amd-aqlprofile5.6.0 (= 1.0.0.50600-67~20.04), rocm-smi-lib5.6.0 (= 5.0.0.50600-67~20.04), rocprofiler5.6.0 (= 2.0.0.50600-67~20.04), roctracer5.6.0 (= 4.1.0.50600-67~20.04), rocprofiler-dev5.6.0 (= 2.0.0.50600-67~20.04), roctracer-dev5.6.0 (= 4.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-developer-tools5.6.0/rocm-developer-tools5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 2268
+SHA256: 2f0db3170bc709999089be36d26b64da66475eef91607e3044e9ac10e2d9d428
+SHA1: fe23b8c1b1037cd4edc6fb43ee7a59d6dffc1649
+MD5sum: 9d7af5bda487f1be5c73de3f79466842
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-device-libs
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-device-libs/rocm-device-libs_1.0.0.50600-67~20.04_amd64.deb
+Size: 709554
+SHA256: 09c8045ee965cef8e730c8d78788fc587548c1dffda32753f7455b70e3f3d7f3
+SHA1: 78fbab96c6b0dd3eaeaa7dd4e5a60bbb60bc8eb8
+MD5sum: b3607a853f5fd01f627459eaa10d7c6a
+Description: Radeon Open Compute - device libraries
+ This package includes LLVM bitcode libraries.
+Homepage: https://github.com/RadeonOpenCompute/ROCm-Device-Libs
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 3254
+
+Package: rocm-device-libs5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-device-libs5.6.0/rocm-device-libs5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 457660
+SHA256: 6f5abe89e7c964ef19ea0c57b9131a80df3db2dc0204143dd105720a66e8a8a8
+SHA1: 1de74a0c799ae60622977fde7fdd876f8bf57350
+MD5sum: 7ead6d3e6c009f73edb54d3a95ebe817
+Description: Radeon Open Compute - device libraries
+ This package includes LLVM bitcode libraries.
+Homepage: https://github.com/RadeonOpenCompute/ROCm-Device-Libs
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 3254
+
+Package: rocm-dkms
+Architecture: amd64
+Depends: rocm-dev, rock-dkms, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-dkms/rocm-dkms_5.6.0.50600-67~20.04_amd64.deb
+Size: 806
+SHA256: 59c9cfda16b256a62042e75ef380f6bec3b022837f3e355967ebc2901fdb611b
+SHA1: 7a2fb656167c4846f0a2ce49336cd5d46f4f1e2d
+MD5sum: 9a0cb7e85dd2da1f2800df9ca11a76eb
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm-DKMS Meta Package Support <rocm-dkms.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-gdb
+Version: 13.1.50600-67~20.04
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Priority: optional
+Section: utils
+Filename: pool/main/r/rocm-gdb/rocm-gdb_13.1.50600-67~20.04_amd64.deb
+Size: 91839582
+SHA256: 66534e487605065733a4929b21b31423534402ec30437dd3cd40a3c833a27654
+SHA1: 3573e2257293a6e5c0a2f6d1452cccbea2904144
+MD5sum: ad96508e066f9291f2f92f057c740caa
+Description: ROCgdb
+ This is ROCgdb, the AMD ROCm source-level debugger for Linux,
+ based on GDB, the GNU source-level debugger.
+Architecture: amd64
+Essential: no
+Depends: libexpat1, libtinfo5, libncurses5, rocm-dbgapi, libpython3.10 | libpython3.8, libbabeltrace-ctf1 (>= 1.2.1), libbabeltrace1 (>= 1.2.1), rocm-core
+
+Package: rocm-gdb5.6.0
+Version: 13.1.50600-67~20.04
+Maintainer: ROCm Debugger Support <rocm-gdb.support@amd.com>
+Priority: optional
+Section: utils
+Filename: pool/main/r/rocm-gdb5.6.0/rocm-gdb5.6.0_13.1.50600-67~20.04_amd64.deb
+Size: 56687288
+SHA256: 55cc01990c9c346743f5d23684474265070e2471e3ea56cc090ec96c2a36102f
+SHA1: b2c6440e1f8e41f849cabb49182fb8b985d24fc5
+MD5sum: 679611fe66350b67e3c5f5ba2ef1c58c
+Description: ROCgdb
+ This is ROCgdb, the AMD ROCm source-level debugger for Linux,
+ based on GDB, the GNU source-level debugger.
+Architecture: amd64
+Essential: no
+Depends: libexpat1, libtinfo5, libncurses5, rocm-dbgapi5.6.0, libpython3.10 | libpython3.8, libbabeltrace-ctf1 (>= 1.2.1), libbabeltrace1 (>= 1.2.1), rocm-core5.6.0
+
+Package: rocm-hip-libraries
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-hip-runtime (= 5.6.0.50600-67~20.04), hipblas (= 1.0.0.50600-67~20.04), hipblaslt (= 0.2.0.50600-67~20.04), hipfft (= 1.0.12.50600-67~20.04), hipsparse (= 2.3.6.50600-67~20.04), hipsolver (= 1.8.0.50600-67~20.04), rccl (= 2.16.5.50600-67~20.04), rocalution (= 2.1.9.50600-67~20.04), rocblas (= 3.0.0.50600-67~20.04), rocfft (= 1.0.23.50600-67~20.04), rocrand (= 2.10.17.50600-67~20.04), rocsolver (= 3.22.0.50600-67~20.04), rocsparse (= 2.5.2.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-libraries/rocm-hip-libraries_5.6.0.50600-67~20.04_amd64.deb
+Size: 918
+SHA256: d3f89eb4059e268871e51e3d79e914a1aa5747be47916cb7a774804489a876b1
+SHA1: b2313fe982a5fa770629209444fa3bd47b40b5f3
+MD5sum: ae53ceed1cc046cbc549c1f0ca7600a5
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-libraries5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-hip-runtime5.6.0 (= 5.6.0.50600-67~20.04), hipblas5.6.0 (= 1.0.0.50600-67~20.04), hipblaslt5.6.0 (= 0.2.0.50600-67~20.04), hipfft5.6.0 (= 1.0.12.50600-67~20.04), hipsparse5.6.0 (= 2.3.6.50600-67~20.04), hipsolver5.6.0 (= 1.8.0.50600-67~20.04), rccl5.6.0 (= 2.16.5.50600-67~20.04), rocalution5.6.0 (= 2.1.9.50600-67~20.04), rocblas5.6.0 (= 3.0.0.50600-67~20.04), rocfft5.6.0 (= 1.0.23.50600-67~20.04), rocrand5.6.0 (= 2.10.17.50600-67~20.04), rocsolver5.6.0 (= 3.22.0.50600-67~20.04), rocsparse5.6.0 (= 2.5.2.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-libraries5.6.0/rocm-hip-libraries5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1108
+SHA256: 90693b45dd1c879a2ec15e55f500f6dd8ddb9aaa33a32bf1c6afb64b6a5dd389
+SHA1: 8548f3ef2d7ce4e8905012fac173b37c460fcf22
+MD5sum: 309b7049f1d5dfbbcab360efc1b115a2
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-runtime
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-language-runtime (= 5.6.0.50600-67~20.04), rocminfo (= 1.0.0.50600-67~20.04), hip-runtime-amd (= 5.6.31061.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-runtime/rocm-hip-runtime_5.6.0.50600-67~20.04_amd64.deb
+Size: 2034
+SHA256: 1f9f0ead955887464dbcd06a6481bffe01633413b2ae7a66f5b80a59431ff493
+SHA1: f1395dfdfcf03a65b57a08556064786a7ce95c9c
+MD5sum: 8f5d3a568a036e4ae31f45f9a9374a9c
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-runtime-dev
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-device-libs (= 1.0.0.50600-67~20.04), rocm-hip-runtime (= 5.6.0.50600-67~20.04), rocm-cmake (= 0.9.0.50600-67~20.04), rocm-llvm (= 16.0.0.23243.50600-67~20.04), hipcc (= 1.0.0.50600-67~20.04), hipify-clang (= 16.0.0.50600-67~20.04), hip-doc (= 5.6.31061.50600-67~20.04), hip-samples (= 5.6.31061.50600-67~20.04), hip-dev (= 5.6.31061.50600-67~20.04), hsa-rocr-dev (= 1.9.0.50600-67~20.04), hsakmt-roct-dev (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-runtime-dev/rocm-hip-runtime-dev_5.6.0.50600-67~20.04_amd64.deb
+Size: 2222
+SHA256: 55cfc375eb0e036e786a40b5e38f992793a5d5abad9aaccc2bce40a161fd670d
+SHA1: df0d8da07806736928efb335d0469f18063b5384
+MD5sum: 83a1c8460ad3a7f2155e789f932793e5
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-runtime-dev5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-device-libs5.6.0 (= 1.0.0.50600-67~20.04), rocm-hip-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocm-cmake5.6.0 (= 0.9.0.50600-67~20.04), rocm-llvm5.6.0 (= 16.0.0.23243.50600-67~20.04), hipcc5.6.0 (= 1.0.0.50600-67~20.04), hipify-clang5.6.0 (= 16.0.0.50600-67~20.04), hip-doc5.6.0 (= 5.6.31061.50600-67~20.04), hip-samples5.6.0 (= 5.6.31061.50600-67~20.04), hip-dev5.6.0 (= 5.6.31061.50600-67~20.04), hsa-rocr-dev5.6.0 (= 1.9.0.50600-67~20.04), hsakmt-roct-dev5.6.0 (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-runtime-dev5.6.0/rocm-hip-runtime-dev5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 2372
+SHA256: 3e76b6fc6a5a6910e47865a6b2efe4fd5f0d2f5f06b61a0abc99fc91398814f7
+SHA1: 6a6a7cc7cb4ca48c2dd44220081d4e92cee5fb05
+MD5sum: d190d675288b96040acdfda0ff852b35
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-runtime5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-language-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocminfo5.6.0 (= 1.0.0.50600-67~20.04), hip-runtime-amd5.6.0 (= 5.6.31061.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-runtime5.6.0/rocm-hip-runtime5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 2188
+SHA256: 7aff884fa890253f03a30d63cc5bac11a9786fc605820bc43623f09b16edcb8a
+SHA1: d3d747422d997711b4e77db832fe9b22d4485482
+MD5sum: 07d4fd814a488ca5df283c1232bf81d8
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-sdk
+Architecture: amd64
+Depends: rocm-hip-libraries (= 5.6.0.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), rocm-hip-runtime-dev (= 5.6.0.50600-67~20.04), hipblas-dev (= 1.0.0.50600-67~20.04), hipblaslt-dev (= 0.2.0.50600-67~20.04), hipcub-dev (= 2.13.1.50600-67~20.04), hipfft-dev (= 1.0.12.50600-67~20.04), hipsparse-dev (= 2.3.6.50600-67~20.04), hipsolver-dev (= 1.8.0.50600-67~20.04), hipfort-dev (= 0.4.0.50600-67~20.04), rccl-dev (= 2.16.5.50600-67~20.04), rocalution-dev (= 2.1.9.50600-67~20.04), rocblas-dev (= 3.0.0.50600-67~20.04), rocfft-dev (= 1.0.23.50600-67~20.04), rocprim-dev (= 2.13.0.50600-67~20.04), rocrand-dev (= 2.10.17.50600-67~20.04), rocsolver-dev (= 3.22.0.50600-67~20.04), rocsparse-dev (= 2.5.2.50600-67~20.04), rocthrust-dev (= 2.18.0.50600-67~20.04), rocwmma-dev (= 1.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-sdk/rocm-hip-sdk_5.6.0.50600-67~20.04_amd64.deb
+Size: 970
+SHA256: da15dc96864a0117e7b7460af8d56bd086c6b17f927c0ca2cb9e51b7081197b4
+SHA1: a3fa34e665ed3935a5f92d99ce4fc565bba476d6
+MD5sum: b790f4f31ea0cfea74b7c4ab4ee45e9d
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-hip-sdk5.6.0
+Architecture: amd64
+Depends: rocm-hip-libraries5.6.0 (= 5.6.0.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-hip-runtime-dev5.6.0 (= 5.6.0.50600-67~20.04), hipblas-dev5.6.0 (= 1.0.0.50600-67~20.04), hipblaslt-dev5.6.0 (= 0.2.0.50600-67~20.04), hipcub-dev5.6.0 (= 2.13.1.50600-67~20.04), hipfft-dev5.6.0 (= 1.0.12.50600-67~20.04), hipsparse-dev5.6.0 (= 2.3.6.50600-67~20.04), hipsolver-dev5.6.0 (= 1.8.0.50600-67~20.04), hipfort-dev5.6.0 (= 0.4.0.50600-67~20.04), rccl-dev5.6.0 (= 2.16.5.50600-67~20.04), rocalution-dev5.6.0 (= 2.1.9.50600-67~20.04), rocblas-dev5.6.0 (= 3.0.0.50600-67~20.04), rocfft-dev5.6.0 (= 1.0.23.50600-67~20.04), rocprim-dev5.6.0 (= 2.13.0.50600-67~20.04), rocrand-dev5.6.0 (= 2.10.17.50600-67~20.04), rocsolver-dev5.6.0 (= 3.22.0.50600-67~20.04), rocsparse-dev5.6.0 (= 2.5.2.50600-67~20.04), rocthrust-dev5.6.0 (= 2.18.0.50600-67~20.04), rocwmma-dev5.6.0 (= 1.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-hip-sdk5.6.0/rocm-hip-sdk5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1160
+SHA256: 0dc346df4d3019a0867bb5982c2137b19faaf85c39bb4a4fa4c72b42481d26a1
+SHA1: 8fc19f3d48601fb1cc2fb0a34be31e2179f06806
+MD5sum: 7f8e160b510430cc9e90aa508580d827
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-language-runtime
+Architecture: amd64
+Depends: comgr (= 2.5.0.50600-67~20.04), hsa-rocr (= 1.9.0.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), openmp-extras-runtime (= 16.56.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-language-runtime/rocm-language-runtime_5.6.0.50600-67~20.04_amd64.deb
+Size: 834
+SHA256: 3115f3d453dfd95c67db9d27b36900b6a946572fd4d142a756c842b5f679a431
+SHA1: 13ede8e97ab3dbe3b93a4a26810eff34f2078d57
+MD5sum: 83db6cfb65aa2ef107ab0635ebf2bad7
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-language-runtime5.6.0
+Architecture: amd64
+Depends: comgr5.6.0 (= 2.5.0.50600-67~20.04), hsa-rocr5.6.0 (= 1.9.0.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), openmp-extras-runtime5.6.0 (= 16.56.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-language-runtime5.6.0/rocm-language-runtime5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1020
+SHA256: d74aa09d54a87c13e5555c7680152d75a97bf9595d4c5e20681574392e5dc84b
+SHA1: c42df4a87f0471916b51d0458a5224b835f63400
+MD5sum: c271608883819543684205187cd121a9
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-libs
+Architecture: amd64
+Depends: hipblas (= 1.0.0.50600-67~20.04), hipblaslt (= 0.2.0.50600-67~20.04), hipfft (= 1.0.12.50600-67~20.04), hipsolver (= 1.8.0.50600-67~20.04), hipsparse (= 2.3.6.50600-67~20.04), miopen-hip (= 2.20.0.50600-67~20.04), rccl (= 2.16.5.50600-67~20.04), rocalution (= 2.1.9.50600-67~20.04), rocblas (= 3.0.0.50600-67~20.04), rocfft (= 1.0.23.50600-67~20.04), rocrand (= 2.10.17.50600-67~20.04), rocsolver (= 3.22.0.50600-67~20.04), rocsparse (= 2.5.2.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), hipblas-dev (= 1.0.0.50600-67~20.04), hipblaslt-dev (= 0.2.0.50600-67~20.04), hipcub-dev (= 2.13.1.50600-67~20.04), hipfft-dev (= 1.0.12.50600-67~20.04), hipsolver-dev (= 1.8.0.50600-67~20.04), hipsparse-dev (= 2.3.6.50600-67~20.04), miopen-hip-dev (= 2.20.0.50600-67~20.04), rccl-dev (= 2.16.5.50600-67~20.04), rocalution-dev (= 2.1.9.50600-67~20.04), rocblas-dev (= 3.0.0.50600-67~20.04), rocfft-dev (= 1.0.23.50600-67~20.04), rocprim-dev (= 2.13.0.50600-67~20.04), rocrand-dev (= 2.10.17.50600-67~20.04), rocsolver-dev (= 3.22.0.50600-67~20.04), rocsparse-dev (= 2.5.2.50600-67~20.04), rocthrust-dev (= 2.18.0.50600-67~20.04), rocwmma-dev (= 1.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-libs/rocm-libs_5.6.0.50600-67~20.04_amd64.deb
+Size: 1012
+SHA256: 13e0b72ad7c3bf36ce8977e672b864c2cced64d6e02acedfe1202179ce4977f7
+SHA1: 7ac562f81fe64e7444e1c85b39b724116f2c08a0
+MD5sum: f662167bae7d4d5bac1dabacee4f153d
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-libs5.6.0
+Architecture: amd64
+Depends: hipblas5.6.0 (= 1.0.0.50600-67~20.04), hipblaslt5.6.0 (= 0.2.0.50600-67~20.04), hipfft5.6.0 (= 1.0.12.50600-67~20.04), hipsolver5.6.0 (= 1.8.0.50600-67~20.04), hipsparse5.6.0 (= 2.3.6.50600-67~20.04), miopen-hip5.6.0 (= 2.20.0.50600-67~20.04), rccl5.6.0 (= 2.16.5.50600-67~20.04), rocalution5.6.0 (= 2.1.9.50600-67~20.04), rocblas5.6.0 (= 3.0.0.50600-67~20.04), rocfft5.6.0 (= 1.0.23.50600-67~20.04), rocrand5.6.0 (= 2.10.17.50600-67~20.04), rocsolver5.6.0 (= 3.22.0.50600-67~20.04), rocsparse5.6.0 (= 2.5.2.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), hipblas-dev5.6.0 (= 1.0.0.50600-67~20.04), hipblaslt-dev5.6.0 (= 0.2.0.50600-67~20.04), hipcub-dev5.6.0 (= 2.13.1.50600-67~20.04), hipfft-dev5.6.0 (= 1.0.12.50600-67~20.04), hipsolver-dev5.6.0 (= 1.8.0.50600-67~20.04), hipsparse-dev5.6.0 (= 2.3.6.50600-67~20.04), miopen-hip-dev5.6.0 (= 2.20.0.50600-67~20.04), rccl-dev5.6.0 (= 2.16.5.50600-67~20.04), rocalution-dev5.6.0 (= 2.1.9.50600-67~20.04), rocblas-dev5.6.0 (= 3.0.0.50600-67~20.04), rocfft-dev5.6.0 (= 1.0.23.50600-67~20.04), rocprim-dev5.6.0 (= 2.13.0.50600-67~20.04), rocrand-dev5.6.0 (= 2.10.17.50600-67~20.04), rocsolver-dev5.6.0 (= 3.22.0.50600-67~20.04), rocsparse-dev5.6.0 (= 2.5.2.50600-67~20.04), rocthrust-dev5.6.0 (= 2.18.0.50600-67~20.04), rocwmma-dev5.6.0 (= 1.1.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-libs5.6.0/rocm-libs5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1192
+SHA256: a4775b02496d8f4acc57e6269f19329b59821ba2166228d989068366d6de5a42
+SHA1: 6833a7909940fabe22accaff8becb34e0faa221d
+MD5sum: d49e56e331944f3f753bc94a9d53b459
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-llvm
+Architecture: amd64
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 16.0.0.23243.50600-67~20.04
+Release:    67~20.04
+Depends: python3, libc6, libstdc++6|libstdc++8, libstdc++-5-dev|libstdc++-7-dev|libstdc++-11-dev, libgcc-5-dev|libgcc-7-dev|libgcc-11-dev, rocm-core
+Recommends: gcc, g++, gcc-multilib, g++-multilib
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-llvm/rocm-llvm_16.0.0.23243.50600-67~20.04_amd64.deb
+Size: 1321441624
+SHA256: 4356878d6fe3d9f048ce88952cce4da6e3092bbea04f5aeaef0d6e81b0858be5
+SHA1: 84b3e3936af166f3fff903e5bd72591c54e89a27
+MD5sum: 773e241a4b03ff934acad97cabc9ef04
+Description: ROCm compiler
+  ROCm compiler based on LLVM 16.0.0
+
+Package: rocm-llvm5.6.0
+Architecture: amd64
+Maintainer: ROCm Compiler Support <rocm.compiler.support@amd.com>
+Version: 16.0.0.23243.50600-67~20.04
+Release:    67~20.04
+Depends: python3, libc6, libstdc++6|libstdc++8, libstdc++-5-dev|libstdc++-7-dev|libstdc++-11-dev, libgcc-5-dev|libgcc-7-dev|libgcc-11-dev, rocm-core5.6.0
+Recommends: gcc, g++, gcc-multilib, g++-multilib
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-llvm5.6.0/rocm-llvm5.6.0_16.0.0.23243.50600-67~20.04_amd64.deb
+Size: 854714208
+SHA256: 2cd54a7644b36cc6d092d2bdbe965cfd6fdd6868afdb3b7b8e1de7749c634a7e
+SHA1: 514a22969783bf5e53877787dd61930c131d4e1f
+MD5sum: 8485cf16c3f642d19b7b19464db0775a
+Description: ROCm compiler
+  ROCm compiler based on LLVM 16.0.0
+
+Package: rocm-ml-libraries
+Architecture: amd64
+Depends: rocm-hip-libraries (= 5.6.0.50600-67~20.04), miopen-hip (= 2.20.0.50600-67~20.04), rocm-llvm (= 16.0.0.23243.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ml-libraries/rocm-ml-libraries_5.6.0.50600-67~20.04_amd64.deb
+Size: 838
+SHA256: 0154e76b2f189a5e80c7a70c21d18bffdc58220b67976c4299167c9f58fd5f65
+SHA1: 2ad1a9996a7b4c307a497e3a2ecde0abdae36071
+MD5sum: 25280030311014dca62dd6cf320036ec
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-ml-libraries5.6.0
+Architecture: amd64
+Depends: rocm-hip-libraries5.6.0 (= 5.6.0.50600-67~20.04), miopen-hip5.6.0 (= 2.20.0.50600-67~20.04), rocm-llvm5.6.0 (= 16.0.0.23243.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ml-libraries5.6.0/rocm-ml-libraries5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1024
+SHA256: da0b8b7a30013b981f5a1addcf1aa9e38b91254f429abc56b183f54563352880
+SHA1: aa86fc8e7d70e1db247311ab4948631811488f2a
+MD5sum: aa5083fae737d0062e2be940ed571c67
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-ml-sdk
+Architecture: amd64
+Depends: rocm-ml-libraries (= 5.6.0.50600-67~20.04), rocm-hip-sdk (= 5.6.0.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), miopen-hip-dev (= 2.20.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ml-sdk/rocm-ml-sdk_5.6.0.50600-67~20.04_amd64.deb
+Size: 828
+SHA256: eb5b0d3997f3c6c9867c44b6210bef6320bf69a183089d29d5df5a0011ecd76d
+SHA1: 52bf8d38661346fb90c673fa091a59157d4d4320
+MD5sum: 92a95c1ddeb2b006e5428a236c575167
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-ml-sdk5.6.0
+Architecture: amd64
+Depends: rocm-ml-libraries5.6.0 (= 5.6.0.50600-67~20.04), rocm-hip-sdk5.6.0 (= 5.6.0.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), miopen-hip-dev5.6.0 (= 2.20.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ml-sdk5.6.0/rocm-ml-sdk5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1016
+SHA256: 4636964d92003d493b8a7b937702f63801e089904a7168f9e305bc133301d7c9
+SHA1: 47b5ebe5c680fa031fdc54ab7811f8187cc070ee
+MD5sum: 9f61c88e5a7b3c2568c44230b58b83dc
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-ocl-icd
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ocl-icd/rocm-ocl-icd_2.0.0.50600-67~20.04_amd64.deb
+Size: 15862
+SHA256: 845cdd1b014f2779431741afbce3f179cb80f04383e25248aacbfa2d4671739b
+SHA1: 25f6b6152960d8101e9649688c1936b16acba401
+MD5sum: b69e60f10c9f269b086558ae7dfdfb04
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 250
+
+Package: rocm-ocl-icd5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ocl-icd5.6.0/rocm-ocl-icd5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 13304
+SHA256: f8602843d4256b3aaf58a5e69aade63523d91feb9d62386e8abcc37414eb5df7
+SHA1: 4c78b12779e920947a65d1bb8209118035dbd639
+MD5sum: 085ad234eb934eb378c34a1883cd84c4
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 250
+
+Package: rocm-ocltst
+Architecture: amd64
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ocltst/rocm-ocltst_2.0.0.50600-67~20.04_amd64.deb
+Size: 677640
+SHA256: b853717c7bc0d0cec1b978bfa8d75845a6eef64445aa1e06ebaaebfeebe2b1f7
+SHA1: 5803f94dbb3d1bea4115f9d772a79ff9e0a1c8a3
+MD5sum: 4f5db738c8fc2563b69e83af428238c4
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 2205
+
+Package: rocm-ocltst5.6.0
+Architecture: amd64
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-ocltst5.6.0/rocm-ocltst5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 452916
+SHA256: 60e6779ad8dd06d432dc7df8f62f02b6ccd02c583cdf6aed09947ff6064d8b32
+SHA1: 170cd5029a5da13d1ea061be4f586106b1c2c1d4
+MD5sum: cc71571b430375312330cb64ac2f9008
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 2205
+
+Package: rocm-opencl
+Architecture: amd64
+Depends: rocm-ocl-icd, libelf-dev, comgr, hsa-rocr, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl/rocm-opencl_2.0.0.50600-67~20.04_amd64.deb
+Size: 577622
+SHA256: 65b25e50414e1a70e4226b3813563081c84caca45acdc7dfefacfbfc7b0b505e
+SHA1: 17a1f4d58c6291413bd760500ef4d3570c35dd87
+MD5sum: 41ce687ef5bc631910f21299f077cad6
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 2958
+
+Package: rocm-opencl-dev
+Architecture: amd64
+Depends: mesa-common-dev, rocm-opencl, hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-dev/rocm-opencl-dev_2.0.0.50600-67~20.04_amd64.deb
+Size: 123122
+SHA256: 5a969c38d45873356b871c5425fd4f731cdbd95d703cd34fe4520487c893e9e0
+SHA1: 9423ad7cc1e5c26413db0f6913be36e6258a6a79
+MD5sum: 28d09ff4145ed185ace9e73ed4e0e6be
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 890
+
+Package: rocm-opencl-dev5.6.0
+Architecture: amd64
+Depends: mesa-common-dev, rocm-opencl5.6.0, hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-dev5.6.0/rocm-opencl-dev5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 78368
+SHA256: 632802be1e64bbeae8bb1ef99bd53d9fc19a952438aa49e8ac6ab71fbd09111f
+SHA1: b6167a869c9930ab5f6f2c5519da8ab9e5432d1e
+MD5sum: afcf7bf51cf0fee34405f69bcd14f03b
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 890
+
+Package: rocm-opencl-runtime
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-language-runtime (= 5.6.0.50600-67~20.04), rocm-opencl (= 2.0.0.50600-67~20.04), rocm-ocl-icd (= 2.0.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-runtime/rocm-opencl-runtime_5.6.0.50600-67~20.04_amd64.deb
+Size: 2012
+SHA256: 4628e5c1b0220b8dd50045108a933c9b963e4327790c2881f75f083772eb2625
+SHA1: 8b8abb28d1a3965d291c326c11ae9faf07e86a97
+MD5sum: 82814d0df3b4973f1a5ec045da3fc9ab
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-opencl-runtime5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-language-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocm-opencl5.6.0 (= 2.0.0.50600-67~20.04), rocm-ocl-icd5.6.0 (= 2.0.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-runtime5.6.0/rocm-opencl-runtime5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 2172
+SHA256: ff67feaa08297b2f6156b5de0bd199a74bc9818e7c3e6b45671cee5c91e22df1
+SHA1: cc46329762488feb63e6f96f338701c6eadcbf1a
+MD5sum: 12c750bc25dbbeb53ac23b160d44c3ff
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-opencl-sdk
+Architecture: amd64
+Depends: rocm-core (= 5.6.0.50600-67~20.04), rocm-opencl-runtime (= 5.6.0.50600-67~20.04), rocm-opencl-dev (= 2.0.0.50600-67~20.04), hsa-rocr-dev (= 1.9.0.50600-67~20.04), hsakmt-roct-dev (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-sdk/rocm-opencl-sdk_5.6.0.50600-67~20.04_amd64.deb
+Size: 844
+SHA256: 2b3b6644bd9af30a0338b5d5e7c4880aebde81c2bfa68ce3e16df5c703df5412
+SHA1: 53caaca404b72e8d3b388758d0c1df73e4b92b23
+MD5sum: b454e907a898d86c46ed33565d00e5b9
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-opencl-sdk5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0 (= 5.6.0.50600-67~20.04), rocm-opencl-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocm-opencl-dev5.6.0 (= 2.0.0.50600-67~20.04), hsa-rocr-dev5.6.0 (= 1.9.0.50600-67~20.04), hsakmt-roct-dev5.6.0 (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl-sdk5.6.0/rocm-opencl-sdk5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1036
+SHA256: 345b0bea22dab7cd6a7ecf80d741756f71fb136b1dde0bc175cb28d00f66cda3
+SHA1: 5cf8e099a1a52b614d42d4dcd322132b22a9890c
+MD5sum: ff3d370a521a7e04e7ecd25ef9bb2bf8
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Dev Support <rocm-dev.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-opencl5.6.0
+Architecture: amd64
+Depends: rocm-ocl-icd5.6.0, libelf-dev, comgr5.6.0, hsa-rocr5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-opencl5.6.0/rocm-opencl5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 441880
+SHA256: c7c9f7aae8ed1f18195d1c77e5696707e9e0349958399b5b1cd5652e930910d6
+SHA1: 2b7229b916453d058191ecb716043d62c10df89a
+MD5sum: 250b8e266391bfbc05cfa39e67acf592
+Description: clr built using CMake
+Maintainer: ROCm OpenCL Support <rocm-opencl.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 2958
+
+Package: rocm-openmp-sdk
+Architecture: amd64
+Depends: rocm-language-runtime (= 5.6.0.50600-67~20.04), rocm-device-libs (= 1.0.0.50600-67~20.04), rocm-llvm (= 16.0.0.23243.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04), openmp-extras-dev (= 16.56.0.50600-67~20.04), hsa-rocr-dev (= 1.9.0.50600-67~20.04), hsakmt-roct-dev (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-openmp-sdk/rocm-openmp-sdk_5.6.0.50600-67~20.04_amd64.deb
+Size: 890
+SHA256: 3e06fdd77ea4f07f2f906e577fc3a584fed01d7d326223e1c52b250639db06e4
+SHA1: 9f3796fdc44fc3863f61688d6af61388cdbfc712
+MD5sum: 23b549230c56d3e5348c88dc6860d00c
+Description: Radeon Open Compute (ROCm) OpenMP Software development Kit.
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-openmp-sdk5.6.0
+Architecture: amd64
+Depends: rocm-language-runtime5.6.0 (= 5.6.0.50600-67~20.04), rocm-device-libs5.6.0 (= 1.0.0.50600-67~20.04), rocm-llvm5.6.0 (= 16.0.0.23243.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04), openmp-extras-dev5.6.0 (= 16.56.0.50600-67~20.04), hsa-rocr-dev5.6.0 (= 1.9.0.50600-67~20.04), hsakmt-roct-dev5.6.0 (= 20230421.1.8.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-openmp-sdk5.6.0/rocm-openmp-sdk5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1092
+SHA256: 213e8e3c80e45fc2739a31bf4c2a5d071c10864a40a5ed8852c2bf2f3b599036
+SHA1: 2a5c3b3860bbc8c089c3bcbbfe1ff9f708e09371
+MD5sum: 0a82f22b006bdbde9aacbd60295839c3
+Description: Radeon Open Compute (ROCm) OpenMP Software development Kit.
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Libs Support <rocm-libs.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-smi-lib
+Architecture: amd64
+Depends: python3, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-smi-lib/rocm-smi-lib_5.0.0.50600-67~20.04_amd64.deb
+Size: 1113160
+SHA256: 86f92dd1a4188fc84b1bbd5be61be87c9f78b39277b17e16a4d39c619acd7332
+SHA1: 7552b9b1f04e268fbeec49e15ed4cd886518df89
+MD5sum: a0c97722d1cd91bafc7c4ee113dea48c
+Description: AMD System Management libraries
+ Development needed header files for ROCM-SMI
+Maintainer: RocmSMILib Support <rocm-smi.support@amd.com>
+Provides: rocm-smi
+Suggests: sudo
+Version: 5.0.0.50600-67~20.04
+Installed-Size: 9560
+
+Package: rocm-smi-lib5.6.0
+Architecture: amd64
+Depends: python3, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-smi-lib5.6.0/rocm-smi-lib5.6.0_5.0.0.50600-67~20.04_amd64.deb
+Size: 832164
+SHA256: 815da44103ffe7fef90eff42e5e95acef7d2e092af346c44f0def5905f931f39
+SHA1: 4922813ca6ad5d6cc3f5ea5647a9ebdbbef640cd
+MD5sum: b95d108ad0737cb367e29f1bfa8ee458
+Description: AMD System Management libraries
+ Development needed header files for ROCM-SMI
+Maintainer: RocmSMILib Support <rocm-smi.support@amd.com>
+Provides: rocm-smi5.6.0
+Suggests: sudo
+Version: 5.0.0.50600-67~20.04
+Installed-Size: 9560
+
+Package: rocm-utils
+Architecture: amd64
+Depends: rocminfo (= 1.0.0.50600-67~20.04), rocm-clang-ocl (= 0.5.0.50600-67~20.04), rocm-cmake (= 0.9.0.50600-67~20.04), rocm-core (= 5.6.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-utils/rocm-utils_5.6.0.50600-67~20.04_amd64.deb
+Size: 820
+SHA256: 99089057ec1d261e940981fce27c514cd50eefb9a2d00ab72662198971427922
+SHA1: bfc6da467ac07b2779d046d350fccc72406e8bdb
+MD5sum: 3856f2c3c9048e98e30aa5d61f8983ca
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Utils Support <rocm-utils.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-utils5.6.0
+Architecture: amd64
+Depends: rocminfo5.6.0 (= 1.0.0.50600-67~20.04), rocm-clang-ocl5.6.0 (= 0.5.0.50600-67~20.04), rocm-cmake5.6.0 (= 0.9.0.50600-67~20.04), rocm-core5.6.0 (= 5.6.0.50600-67~20.04)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-utils5.6.0/rocm-utils5.6.0_5.6.0.50600-67~20.04_amd64.deb
+Size: 1004
+SHA256: 93849b2c1272542a0a7dd956882ef907ea576ee2abad867afac08c96716c612c
+SHA1: 9e7389be78cc0989ac0aa3ee767d6cb39a933750
+MD5sum: 2ad465dd9dde65da522947d3d3f2efd5
+Description: Radeon Open Compute (ROCm) Runtime software stack
+Homepage: https://github.com/RadeonOpenCompute/ROCm
+Maintainer: ROCm Utils Support <rocm-utils.support@amd.com>
+Version: 5.6.0.50600-67~20.04
+Installed-Size: 13
+
+Package: rocm-validation-suite
+Architecture: amd64
+Depends: rocblas
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-validation-suite/rocm-validation-suite_1.0.50600.50600-67~20.04_amd64.deb
+Size: 1358476
+SHA256: cbc39a9ced1b0642100dc7535eece39c925fb19d2ad8fb30ac84585933ee5251
+SHA1: d97547bfd4433028b46c774ff2e5ac281e18fcea
+MD5sum: 1a432c701f730e88a2e7fd8325a3cb83
+Description: ROCm Validation Suite validates the AMD platform using ROCm Runtime - The ROCm Validation Suite is a system administrator and cluster manager's tool for detecting and troubleshooting common problems affecting AMD GPUs running in high performance computing environments, enabled using the ROCm software stack on a compatible platform.
+ ROCm Validation Suite
+Maintainer: ROCM Validation Suite Support <rocm-validation-suite.support@amd.com>
+Version: 1.0.50600.50600-67~20.04
+Installed-Size: 12223
+
+Package: rocm-validation-suite5.6.0
+Architecture: amd64
+Depends: rocblas5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocm-validation-suite5.6.0/rocm-validation-suite5.6.0_1.0.50600.50600-67~20.04_amd64.deb
+Size: 764788
+SHA256: 6a4afb2da3b4cc078d21fdf3666f681d9ccfdc0f5216e42f40ea7f4ee5f21959
+SHA1: 5eed7e38c2cf45eca68332a57226d7c7de39406c
+MD5sum: 82f6ffb471d9c9883810c1124120214c
+Description: ROCm Validation Suite validates the AMD platform using ROCm Runtime - The ROCm Validation Suite is a system administrator and cluster manager's tool for detecting and troubleshooting common problems affecting AMD GPUs running in high performance computing environments, enabled using the ROCm software stack on a compatible platform.
+ ROCm Validation Suite
+Maintainer: ROCM Validation Suite Support <rocm-validation-suite.support@amd.com>
+Version: 1.0.50600.50600-67~20.04
+Installed-Size: 12223
+
+Package: rocminfo
+Architecture: amd64
+Depends: hsa-rocr, kmod, pciutils, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocminfo/rocminfo_1.0.0.50600-67~20.04_amd64.deb
+Size: 29276
+SHA256: d7b1b549d40025ce07de0c9f1f8d6bc3fd9176d4d9a44ca6713a87b4dcbaf611
+SHA1: 0f13c0987452090f6055a4aa7148ead130a8fcaf
+MD5sum: eb9d468c751b438c74f88bf498f60cd1
+Description: Radeon Open Compute (ROCm) Runtime rocminfo tool
+Maintainer: AMD Rocminfo Support <rocminfo.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 102
+
+Package: rocminfo5.6.0
+Architecture: amd64
+Depends: hsa-rocr5.6.0, kmod, pciutils, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocminfo5.6.0/rocminfo5.6.0_1.0.0.50600-67~20.04_amd64.deb
+Size: 23956
+SHA256: 7463148592d99a8336c8cc439fcaeb078728a26659b328a904f60f1ca03ff8ad
+SHA1: 75b20f5d1e1b993a308d118797cd160830d58613
+MD5sum: 95df28ad27f163abfedc4d86456f2295
+Description: Radeon Open Compute (ROCm) Runtime rocminfo tool
+Maintainer: AMD Rocminfo Support <rocminfo.support@amd.com>
+Version: 1.0.0.50600-67~20.04
+Installed-Size: 102
+
+Package: rocprim-dev
+Architecture: amd64
+Depends: hip-rocclr (>= 3.5.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprim-dev/rocprim-dev_2.13.0.50600-67~20.04_amd64.deb
+Size: 175900
+SHA256: 5c7e0cc0ed17eef9db5e098fc5f4aa9634336050433b4da6a4d8739530ebaef0
+SHA1: fc46e91dee361e1f3505c1710963940a6cbb63e3
+MD5sum: 8717975f456c4fe3d8638db02a76eed2
+Description: Radeon Open Compute Parallel Primitives Library
+Maintainer: rocPRIM Maintainer <rocprim-maintainer@amd.com>
+Provides: rocprim (= 2.13.0.50600)
+Version: 2.13.0.50600-67~20.04
+Installed-Size: 2626
+
+Package: rocprim-dev5.6.0
+Architecture: amd64
+Depends: hip-rocclr5.6.0 (>= 3.5.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprim-dev5.6.0/rocprim-dev5.6.0_2.13.0.50600-67~20.04_amd64.deb
+Size: 174972
+SHA256: 4cd1bbf22549c07f7da76339a3dea678266a5774443ddab23c46bcae300bb428
+SHA1: e44f4da66f61255fd07ae544120663990e951729
+MD5sum: f3d15c0332acbc4978ace1a4d3085772
+Description: Radeon Open Compute Parallel Primitives Library
+Maintainer: rocPRIM Maintainer <rocprim-maintainer@amd.com>
+Provides: rocprim5.6.0 (= 2.13.0.50600)
+Version: 2.13.0.50600-67~20.04
+Installed-Size: 2626
+
+Package: rocprofiler
+Architecture: amd64
+Depends: hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler/rocprofiler_2.0.0.50600-67~20.04_amd64.deb
+Size: 817306
+SHA256: a5ed2359b364bcb896a447461f0f27d4ab0b5e4d2d4209e0bbd994858190c695
+SHA1: aa59e04bd3d252c376b313f168f539eb6aa88663
+MD5sum: 09c112c1214655324596d0c32d613dd5
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Dynamic libraries for the ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 4384
+
+Package: rocprofiler-dev
+Architecture: amd64
+Depends: rocprofiler, hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-dev/rocprofiler-dev_2.0.0.50600-67~20.04_amd64.deb
+Size: 22260
+SHA256: b6a57b1c6c0198b438bd8144fb401d7bf5e7fd9fa6437b559e2aaf409824c208
+SHA1: 352b2b3e54aa23f4fe5a2182d5944d6f12ddcd76
+MD5sum: 60982bad6a6ad37bd1632075efaa5f98
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Development needed header files for ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 150
+
+Package: rocprofiler-dev5.6.0
+Architecture: amd64
+Depends: rocprofiler5.6.0, hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-dev5.6.0/rocprofiler-dev5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 19428
+SHA256: 0b786c961876887855940fd173a81fcea415459aedab2ebd3f5dcbbceaab44aa
+SHA1: ae7b135117ac9f74ef9d0387866f048fda82a4de
+MD5sum: 3a8e986185d4bc7c6b324140512b0de5
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Development needed header files for ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 150
+
+Package: rocprofiler-docs
+Architecture: amd64
+Depends: rocprofiler-dev, hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-docs/rocprofiler-docs_2.0.0.50600-67~20.04_amd64.deb
+Size: 728
+SHA256: 549bd4afe431af4b36351b9121e72ae78824f2d977454483fe9757e0b0cb8eca
+SHA1: 0bf7def7fcf88fa8d017e613ef3b553179e48576
+MD5sum: 0c88b60427bca06d80a83b495ede1e81
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Documentation for the ROCProfiler API
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 20
+
+Package: rocprofiler-docs5.6.0
+Architecture: amd64
+Depends: rocprofiler-dev5.6.0, hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-docs5.6.0/rocprofiler-docs5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 932
+SHA256: d0275e5b5ba3d08789b2d1eaf6fa651174a8bc3583ff701042b320472c6d38a6
+SHA1: 1037b55e1f548506b86813d3c5e7d72bd5f2e45f
+MD5sum: 77a7d2bc5f18c2f6ad6fc559041d96f0
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Documentation for the ROCProfiler API
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 20
+
+Package: rocprofiler-plugins
+Architecture: amd64
+Depends: rocprofiler, hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-plugins/rocprofiler-plugins_2.0.0.50600-67~20.04_amd64.deb
+Size: 890984
+SHA256: 310400082941ddbe9547d948eeb51dbf322a813675423e1cdee7ccc01e916e33
+SHA1: 99b23d3ccb8548133a1bce7166dcaf8f0544ff1e
+MD5sum: dc0279ff862bb4e4844770cf913318ca
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Plugins for handling ROCProfiler data output
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 3706
+
+Package: rocprofiler-plugins5.6.0
+Architecture: amd64
+Depends: rocprofiler5.6.0, hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-plugins5.6.0/rocprofiler-plugins5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 619528
+SHA256: 176f68d31947692c7f59df0850694606ac65c59a6564d0f0681e84aded5b3e95
+SHA1: bcd63a898ba6e097c544aba1d559aa162e95a915
+MD5sum: 9ec19103b8e106c3f50e0928a9196aff
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Plugins for handling ROCProfiler data output
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 3706
+
+Package: rocprofiler-samples
+Architecture: amd64
+Depends: rocprofiler-dev, hsa-rocr-dev, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-samples/rocprofiler-samples_2.0.0.50600-67~20.04_amd64.deb
+Size: 197382
+SHA256: acdbb0cc4e165267732e2fd739a71ef7e733574b52c20b0c20577228a7754ee0
+SHA1: 77c4f7ea403827a7cc62aa870de91982cf8436c0
+MD5sum: 921dc656c31ae88013a7f3507c422295
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Samples for the ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 763
+
+Package: rocprofiler-samples5.6.0
+Architecture: amd64
+Depends: rocprofiler-dev5.6.0, hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler-samples5.6.0/rocprofiler-samples5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 71088
+SHA256: 78c6587dc3c4ccb4e8c9a6e81ab70ba52f858be8472ce5bc01fe3c0f1fbc3605
+SHA1: aac0f640b1c7ccaaa4abf96c18faa4091a163100
+MD5sum: 42ab213a07e1c28f19dcd74bf0e18c00
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Samples for the ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 763
+
+Package: rocprofiler5.6.0
+Architecture: amd64
+Depends: hsa-rocr-dev5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocprofiler5.6.0/rocprofiler5.6.0_2.0.0.50600-67~20.04_amd64.deb
+Size: 543828
+SHA256: 3b1a2223d22cf9c9c6a3045012bb72e11665c8d8d73e38f9ef8d327419012a14
+SHA1: febb5d88dfa54530844517a65a610abf2a7f669f
+MD5sum: a2a305bea61a14877d2036fcee88e8d5
+Description: ROCPROFILER library for AMD HSA runtime API extension support
+ Dynamic libraries for the ROCProfiler
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 2.0.0.50600-67~20.04
+Installed-Size: 4384
+
+Package: rocrand
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocrand/rocrand_2.10.17.50600-67~20.04_amd64.deb
+Size: 15735000
+SHA256: b5d5664aa994616bc4ad85aeee856fb95535a5d51d56068693b37fdadbbf2778
+SHA1: b92c2c03c05bad0e66bb899c443905dcc50b882d
+MD5sum: 9fedfdf2271131cbd04938a38164f448
+Description: Radeon Open Compute RAND library
+Maintainer: rocRAND Maintainer <hiprand-maintainer@amd.com>
+Recommends: rocrand-dev (>=2.10.17.50600)
+Version: 2.10.17.50600-67~20.04
+Installed-Size: 89583
+
+Package: rocrand-dev
+Architecture: amd64
+Depends: rocrand (>= 2.10.17.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocrand-dev/rocrand-dev_2.10.17.50600-67~20.04_amd64.deb
+Size: 541896
+SHA256: 463de6bb639402c617092553ca1e13b59bc5fd6eb36aceb9714a37f4a2a835fe
+SHA1: 648de5c96f0bf7dcb57f359c82ecc6fe46a24374
+MD5sum: d17c6aea17621cfa7482fedc73cf3de0
+Description: Radeon Open Compute RAND library
+Maintainer: rocRAND Maintainer <hiprand-maintainer@amd.com>
+Version: 2.10.17.50600-67~20.04
+Installed-Size: 3774
+
+Package: rocrand-dev5.6.0
+Architecture: amd64
+Depends: rocrand5.6.0 (>= 2.10.17.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocrand-dev5.6.0/rocrand-dev5.6.0_2.10.17.50600-67~20.04_amd64.deb
+Size: 541912
+SHA256: fca17d6b9907027e6834000fc0f5920f0ae9c14e0b9c909d2b833f5d35030f18
+SHA1: e5a45a4f04a9993732ce5d1ad326cc1292db598d
+MD5sum: f34ee7e326fa2c2a9509abed356c66cc
+Description: Radeon Open Compute RAND library
+Maintainer: rocRAND Maintainer <hiprand-maintainer@amd.com>
+Version: 2.10.17.50600-67~20.04
+Installed-Size: 3774
+
+Package: rocrand5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocrand5.6.0/rocrand5.6.0_2.10.17.50600-67~20.04_amd64.deb
+Size: 15771796
+SHA256: 086b9743be263e466038604078d38b02b9844987d5d4a6a071f09917ec8cfd2e
+SHA1: 5a647079a6c947b5664e88cb5d2b0aa05f6df692
+MD5sum: 968c1a81e4169d7599ef62d1872988a1
+Description: Radeon Open Compute RAND library
+Maintainer: rocRAND Maintainer <hiprand-maintainer@amd.com>
+Recommends: rocrand-dev5.6.0 (>=2.10.17.50600)
+Version: 2.10.17.50600-67~20.04
+Installed-Size: 89583
+
+Package: rocsolver
+Architecture: amd64
+Depends: rocblas (>= 3.0), rocblas (<< 3.1), rocsparse (>= 2.2), rocsparse (<< 3.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsolver/rocsolver_3.22.0.50600-67~20.04_amd64.deb
+Size: 64254688
+SHA256: d23761afd4eedab33626cfc25c7ca71dbe4ad930dfa346c49c61f0a0bb44c7a5
+SHA1: ed9923b67349fc5031b0db79df6c872b647d3b4f
+MD5sum: be05c9281f290cecf3e0e8ff1a1b3330
+Description: AMD ROCm SOLVER library
+Maintainer: RocSOLVER maintainer <rocsolver-maintainer@amd.com>
+Recommends: rocsolver-dev (>=3.22.0.50600)
+Version: 3.22.0.50600-67~20.04
+Installed-Size: 2517393
+
+Package: rocsolver-dev
+Architecture: amd64
+Depends: rocsolver (>= 3.22.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsolver-dev/rocsolver-dev_3.22.0.50600-67~20.04_amd64.deb
+Size: 46746
+SHA256: e38447464e3fe93f8a095e2a11f39248842d09fd88459e223b6a38be64c7fda0
+SHA1: 66d6580a2e519a61958c3d370d53fb0b7bc92043
+MD5sum: 880e51ba36c2fac0ea27ec3e3ed41d27
+Description: AMD ROCm SOLVER library
+Maintainer: RocSOLVER maintainer <rocsolver-maintainer@amd.com>
+Version: 3.22.0.50600-67~20.04
+Installed-Size: 1385
+
+Package: rocsolver-dev5.6.0
+Architecture: amd64
+Depends: rocsolver5.6.0 (>= 3.22.0.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsolver-dev5.6.0/rocsolver-dev5.6.0_3.22.0.50600-67~20.04_amd64.deb
+Size: 46816
+SHA256: e69fb2e79e224eb6310f573882067fde68031fedcbf4019545e29ef9963e7b48
+SHA1: 9aee13a9a9493800f9ac0bfec6a16bf394d52bad
+MD5sum: fd6597079b3e14cc6aa34b6ae09e5169
+Description: AMD ROCm SOLVER library
+Maintainer: RocSOLVER maintainer <rocsolver-maintainer@amd.com>
+Version: 3.22.0.50600-67~20.04
+Installed-Size: 1385
+
+Package: rocsolver5.6.0
+Architecture: amd64
+Depends: rocblas5.6.0 (>= 3.0), rocblas5.6.0 (<< 3.1), rocsparse5.6.0 (>= 2.2), rocsparse5.6.0 (<< 3.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsolver5.6.0/rocsolver5.6.0_3.22.0.50600-67~20.04_amd64.deb
+Size: 64254348
+SHA256: 5e013f6ad182a857839ccda320410e3a88909c77bd156e294b72f7fd5f014e64
+SHA1: aa7cc5d8ae4946790419c77e5ea68721a7039bc8
+MD5sum: 5b0ed8083765557a61d87ec7cb7abe59
+Description: AMD ROCm SOLVER library
+Maintainer: RocSOLVER maintainer <rocsolver-maintainer@amd.com>
+Recommends: rocsolver-dev5.6.0 (>=3.22.0.50600)
+Version: 3.22.0.50600-67~20.04
+Installed-Size: 2517393
+
+Package: rocsparse
+Architecture: amd64
+Depends: hip-rocclr (>= 3.5.0), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsparse/rocsparse_2.5.2.50600-67~20.04_amd64.deb
+Size: 21927088
+SHA256: ce5ae645a476be0750ca75a707902554f2ec6f9ea1142f3091afa13881badc36
+SHA1: fd127c1bcf91a9784309f1d63823dcd20926e22a
+MD5sum: 59d2271ed9ae31ea15ebc6d810998c38
+Description: Radeon Open Compute SPARSE library
+Maintainer: rocSPARSE Maintainer <rocsparse-maintainer@amd.com>
+Recommends: rocsparse-dev (>=2.5.2.50600)
+Version: 2.5.2.50600-67~20.04
+Installed-Size: 1637394
+
+Package: rocsparse-dev
+Architecture: amd64
+Depends: rocsparse (>= 2.5.2.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsparse-dev/rocsparse-dev_2.5.2.50600-67~20.04_amd64.deb
+Size: 75812
+SHA256: ff7dd734d5105537541080957d8af28708424cc66ed89da7c4d4baa21596d412
+SHA1: e21224d84f626f18f9483c9e0266fed578448b9d
+MD5sum: 3de0a22c80fccc76f1fdbfd122f2eec3
+Description: Radeon Open Compute SPARSE library
+Maintainer: rocSPARSE Maintainer <rocsparse-maintainer@amd.com>
+Version: 2.5.2.50600-67~20.04
+Installed-Size: 2306
+
+Package: rocsparse-dev5.6.0
+Architecture: amd64
+Depends: rocsparse5.6.0 (>= 2.5.2.50600)
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsparse-dev5.6.0/rocsparse-dev5.6.0_2.5.2.50600-67~20.04_amd64.deb
+Size: 75816
+SHA256: 0c71d0204aba47ac58a067c70d14c57f1b2191029b047e685e374a0ad6d36413
+SHA1: 625b5754b05b40fb30b12e733e93dd2847ecc668
+MD5sum: c12fb2f328185728f219a45f78b60e72
+Description: Radeon Open Compute SPARSE library
+Maintainer: rocSPARSE Maintainer <rocsparse-maintainer@amd.com>
+Version: 2.5.2.50600-67~20.04
+Installed-Size: 2306
+
+Package: rocsparse5.6.0
+Architecture: amd64
+Depends: hip-rocclr5.6.0 (>= 3.5.0), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocsparse5.6.0/rocsparse5.6.0_2.5.2.50600-67~20.04_amd64.deb
+Size: 21927016
+SHA256: f912d6370ce9e3e3e827905d3c4441fa81daae3ab07af00d78e0819df0ad3bae
+SHA1: f92e377678561434ba5d6ae4d65c48113e99a44b
+MD5sum: 2d5efe3a63b8ec540819df8d1a6a6f66
+Description: Radeon Open Compute SPARSE library
+Maintainer: rocSPARSE Maintainer <rocsparse-maintainer@amd.com>
+Recommends: rocsparse-dev5.6.0 (>=2.5.2.50600)
+Version: 2.5.2.50600-67~20.04
+Installed-Size: 1637394
+
+Package: rocthrust-dev
+Architecture: amd64
+Conflicts: hip-thrust, thrust
+Depends: rocprim-dev (>= 2.10.1), rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocthrust-dev/rocthrust-dev_2.18.0.50600-67~20.04_amd64.deb
+Size: 477190
+SHA256: 2b60133e367569b7248b19c24c884bdde8c303beb2e05801e58fcaee8c2da489
+SHA1: a01e87a6a57be0a926cc916d86d9dc5fc3f73167
+MD5sum: f7de8fec8a33c2d4ac9fb5560e02ea43
+Description: Radeon Open Compute Thrust library
+Maintainer: rocthrust-maintainer@amd.com
+Provides: rocthrust (= 2.18.0.50600)
+Version: 2.18.0.50600-67~20.04
+Installed-Size: 6984
+
+Package: rocthrust-dev5.6.0
+Architecture: amd64
+Conflicts: hip-thrust5.6.0, thrust5.6.0
+Depends: rocprim-dev5.6.0 (>= 2.10.1), rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocthrust-dev5.6.0/rocthrust-dev5.6.0_2.18.0.50600-67~20.04_amd64.deb
+Size: 468584
+SHA256: f2efc78410a5e82f090976586201cfb975aa9c4df90c72bfbedcdec223322b06
+SHA1: 50f46cdf5cf558b54d97e1fffc427cdd04cfe268
+MD5sum: 19cec22c0f60801a7a0178863f711b76
+Description: Radeon Open Compute Thrust library
+Maintainer: rocthrust-maintainer@amd.com
+Provides: rocthrust5.6.0 (= 2.18.0.50600)
+Version: 2.18.0.50600-67~20.04
+Installed-Size: 6984
+
+Package: roctracer
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/roctracer/roctracer_4.1.0.50600-67~20.04_amd64.deb
+Size: 437816
+SHA256: 590de92b5d8c0864a928917fbef578867f29caac4ea2e4363543d570e1a4bf57
+SHA1: f5d7dde51c4be3fbfaea3a703b9f4b801afb00cb
+MD5sum: 529dbf5ce7d8c0e2d53008890cd8fb22
+Description: AMD ROCTRACER library
+ Dynamic libraries for the ROCtracer
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 4.1.0.50600-67~20.04
+Installed-Size: 1417
+
+Package: roctracer-dev
+Architecture: amd64
+Depends: roctracer, rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/roctracer-dev/roctracer-dev_4.1.0.50600-67~20.04_amd64.deb
+Size: 455564
+SHA256: 1e8030382e4a29c331c6451de85b065818cc873dbd19c55d5100ffa473038971
+SHA1: 6277038812eeff9f481a42d148021a31ce62f76c
+MD5sum: 96c9d7833bdd9b78790d915586576eca
+Description: AMD ROCTRACER library
+ Header files and documentation for ROCtracer
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 4.1.0.50600-67~20.04
+Installed-Size: 1443
+
+Package: roctracer-dev5.6.0
+Architecture: amd64
+Depends: roctracer5.6.0, rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/roctracer-dev5.6.0/roctracer-dev5.6.0_4.1.0.50600-67~20.04_amd64.deb
+Size: 393548
+SHA256: 7714b04d602721ce60017750e2bd872de455930b183fc2ac2036d5c7b8bc56ca
+SHA1: 94bec188af63910a1a31a9cbdd29935ed2b1ee62
+MD5sum: 42e661b612e0ca8caf2d8f9c5c923a1c
+Description: AMD ROCTRACER library
+ Header files and documentation for ROCtracer
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 4.1.0.50600-67~20.04
+Installed-Size: 1443
+
+Package: roctracer5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/roctracer5.6.0/roctracer5.6.0_4.1.0.50600-67~20.04_amd64.deb
+Size: 251644
+SHA256: 79b67974ec6b106cf881054cab4500eb14a4766da6b7165bb4cfb929a40a4391
+SHA1: 9afdc05b4a37c7cf9dab1bcdced0e94794ef2b51
+MD5sum: ccc6cd4fd800b467a11b133d3d37184c
+Description: AMD ROCTRACER library
+ Dynamic libraries for the ROCtracer
+Maintainer: ROCm Profiler Support <dl.ROCm-Profiler.support@amd.com>
+Version: 4.1.0.50600-67~20.04
+Installed-Size: 1417
+
+Package: rocwmma-dev
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocwmma-dev/rocwmma-dev_1.1.0.50600-67~20.04_amd64.deb
+Size: 52280
+SHA256: 4536d0fb6e88215e46f7ec71a91c009d1f9bd6546bb0806f706045aae65f3a85
+SHA1: e1e975c3020066b1211aaa5324c88de9eba56353
+MD5sum: b5b3725e6e6320f60d6c78392a439ef5
+Description: AMD's C++ library for facilitating GEMM, or GEMM-like 2D matrix multiplications on GPU leveraging MFMA instructions executing on matrix cores.
+Maintainer: rocWMMA Maintainer <rocwmma-maintainer@amd.com>
+Provides: rocwmma (= 1.1.0.50600)
+Version: 1.1.0.50600-67~20.04
+Installed-Size: 552
+
+Package: rocwmma-dev5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocwmma-dev5.6.0/rocwmma-dev5.6.0_1.1.0.50600-67~20.04_amd64.deb
+Size: 52272
+SHA256: 3069232538c49131097e1abfba03ae62b19052a5cbf725cdcf0981e790cc7ae2
+SHA1: 1d4357b80ac82652b0b899c62cd4e5f30f621f91
+MD5sum: 28b6bca198202fdc4fc9d167ab2c67bb
+Description: AMD's C++ library for facilitating GEMM, or GEMM-like 2D matrix multiplications on GPU leveraging MFMA instructions executing on matrix cores.
+Maintainer: rocWMMA Maintainer <rocwmma-maintainer@amd.com>
+Provides: rocwmma5.6.0 (= 1.1.0.50600)
+Version: 1.1.0.50600-67~20.04
+Installed-Size: 552
+
+Package: rocwmma-samples
+Architecture: amd64
+Depends: rocm-core
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocwmma-samples/rocwmma-samples_1.1.0.50600-67~20.04_amd64.deb
+Size: 78040
+SHA256: d70c4f465194837fc851cded50b2694c0dc87a33ca1a46a53bcafbd057fec09c
+SHA1: 1bba5481b1bc9f4fd97c3e0657b921ed4ea6efb0
+MD5sum: 966a0707b8f240796511a7dc7b569339
+Description: AMD's C++ library for facilitating GEMM, or GEMM-like 2D matrix multiplications on GPU leveraging MFMA instructions executing on matrix cores.
+Maintainer: rocWMMA Maintainer <rocwmma-maintainer@amd.com>
+Version: 1.1.0.50600-67~20.04
+Installed-Size: 1063
+
+Package: rocwmma-samples5.6.0
+Architecture: amd64
+Depends: rocm-core5.6.0
+Priority: optional
+Section: devel
+Filename: pool/main/r/rocwmma-samples5.6.0/rocwmma-samples5.6.0_1.1.0.50600-67~20.04_amd64.deb
+Size: 78208
+SHA256: 96d1d79efbba1f4dfd9e469b54fafdd4b7c2e9e869d1c93dc25c81e4cff2fbfe
+SHA1: 5c88e6ebf277b8c316b3c3bcdf9b949010a00e74
+MD5sum: 3d5c64d044a3fed730288318102d6e56
+Description: AMD's C++ library for facilitating GEMM, or GEMM-like 2D matrix multiplications on GPU leveraging MFMA instructions executing on matrix cores.
+Maintainer: rocWMMA Maintainer <rocwmma-maintainer@amd.com>
+Version: 1.1.0.50600-67~20.04
+Installed-Size: 1063
+
